@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible}"
+  scroll-spy
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> William says Hello &middot; Agigen </title>
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser-ie';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Agigen">
+
+  <meta name="description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+  <meta itemprop="name" content="Agigen - Agile Generation AB">
+  <meta itemprop="description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+
+  <meta itemprop="image" content="http://agigen.se/img/share/opengraph.jpg">
+  <meta property="og:image" content="http://agigen.se/img/share/opengraph.jpg">
+  <meta name="twitter:image" content="http://agigen.se/img/share/opengraph.jpg">
+
+  <meta property="og:title" content="Agigen - Agile Generation AB">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agigen.se">
+  <meta property="og:description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+  <meta property="og:url" content="http://agigen.se">
+  <meta property="fb:admins" content="562883652,1205209891">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@agigen">
+  <meta name="twitter:creator" content="@lendai">
+  <meta name="twitter:title" content="Agigen - Agile Generation AB">
+  <meta name="twitter:description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--william-says-hello
+
+  page--page
+  page--blog
+  page--blog--william-says-hello
+
+">
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Showcase </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar" ng-class="{'menu-expanded': menuVisible}">
+    <div class="container">
+        <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+            <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                    C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+            </svg>
+
+        </a></h1>
+
+        
+        
+        
+
+
+        <button class="topbar__menu-button" ng-click="menuVisible = !menuVisible" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+            <div class="topbar__menu-button__inner"></div>
+            <span class="accessibility">Menu</span>
+
+        </button>
+
+
+    </div>
+</div>
+
+
+<header class="main-header blog-post__header
+
+    blog-post__header--category--news
+">
+    <div class="main-header__content">
+        <div class="container text--light">
+
+            <h2 class="epsilon">Blog post</h2>
+            <h1 class="main-header__title text-wrapper">William says Hello</h1>
+            <p>
+                Posted Thu, May 8, 2014 in  News 
+            </p>
+        </div>
+    </div>
+</header>
+<div class="main-content">
+
+
+
+
+<div class="content container">
+    
+
+    <article class="blog-post">
+        <p>This is a guest blog post by our 14year old trainee William! Unfortunately available in Swedish only.</p>
+
+<p><strong>The following entry is in swedish only.</strong></p>
+
+<p><img src="/img/blog/posts/2014/05/william_1.jpg" ></p>
+
+<p>Den senaste tiden har vi haft förstärkning av William, i normala fall åttondeklassare på Internationella Engelska Skolan.</p>
+
+<blockquote>
+<p>Jag valde att ha min prao här på grund av att jag har ett stort intresse bland datorer och programmering och det såg roligt ut och det var det.</p>
+</blockquote>
+
+<p>Jag har fått göra en hemsida som var ganska svårt på grund av att det var min första men så tur så fick jag hjälp när jag behövde det och jag har lärt mig mycket av det, innan så visste jag bara &#8216;the basics&#8217; av html och css och nu känns det som jag kan otroligt mycket mer.&#8221;</p>
+
+<p>William fick som uppgift av oss att skapa en rolig intern sajt kallad &#8220;Veckans&#8221;.
+Konceptet var att under veckans gång kunna lägga in roliga händelser på kontoret och utanför, för att sedan kunna rösta på dessa händelser för att få fram &#8220;veckans händelse&#8221;, t.ex om någon gjort ett roligt misstag i kod, ramlat och slagit sig (slapstick-humor blir aldrig gammalt) eller om någon kanske sagt en rolig wordpun som fick oss alla att skratta.</p>
+
+<p>Vår designer Max satt tillsammans med William och skissade fram en enkel wireframe till hur sajten skulle se ut och nästan direkt kunde arbetet med frontend-utveckling påbörjas.</p>
+
+<p><img alt="william_3" src="/img/blog/posts/2014/05/william_3.jpg"></p>
+
+<p>Designen i sig var relativt enkel, men även simplistiska layouts kräver mycket CSS &#8211; speciellt eftersom den skulle fungera i både mobil, dator och till och med en TV för våra morgonmöten.</p>
+
+<p><img alt="william_2" src="/img/blog/posts/2014/05/william_2.jpg"></p>
+
+<p>Efter några dagar var grunden klar och det gick att klicka sig runt både i mobil och dator, mission accomplished. Vi kände att det fanns nog med frontend färdigt för att fortsätta med backend-biten själva. Vi tackar William för tiden han kunde ge och önskar honom ett stort lycka till i världen av kod och design!</p>
+
+<p>Vi ger William sista ordet:</p>
+
+<blockquote>
+<p>Allt var intressant här. jag fick lära mig mycket och jag gillar allt som jag har gjort. Det var mer än vad jag förväntade mig. Jag trodde jag inte skulle få ha något att göra hela tiden men det fick jag, jag fick göra en hemsida som var otroligt kul.</p>
+</blockquote>
+
+    </article>
+
+    <footer class="blog-post__footer ">
+
+        <div class="grid">
+            <div class="grid__item one-half">
+                
+                    <a class="blog-post__nav blog-post__nav--prev" href="http://agigen.se/work/build-with-chrome/">
+                        <div class="epsilon">Newer post</div>
+
+                        <h4>Build with Chrome</h4>
+                        <div class="blog-post__nav__imgwrapper">
+                            
+                                <img src="/img/blog/general_320.jpg" class="post__image">
+                            
+                        </div>
+                    </a>
+                
+            </div><div class="grid__item one-half">
+                
+                    <a class="blog-post__nav blog-post__nav--next" href="http://agigen.se/blog/2014-02-26-mittvatten-taking-great-care-of-swedens-water-supply/">
+                        <div class="epsilon">Older post</div>
+
+                        <h4>MittVatten - taking great care of Swedens water supply</h4>
+                        <div class="blog-post__nav__imgwrapper">
+                            
+                                <img src="/img/blog/mittvatten_320.jpg" class="post__image">
+                            
+                        </div>
+                    </a>
+                
+            </div>
+        </div>
+    </footer>
+</div>
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+    </div>
+
+    <nav class="main-footer__links">
+        <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link">Facebook</a>
+        <a href="https://www.linkedin.com/company/640656" target="_blank" class="main-footer__link">LinkedIn</a>
+        <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact us</a>
+    </nav>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js"></script>
+    </body>
+</html>
+
