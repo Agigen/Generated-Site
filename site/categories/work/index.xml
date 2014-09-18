@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Work on Agigen </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://agigen.se/categories/work/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Fri, 29 Aug 2014 13:59:36 CEST</updated>
+    
+    <item>
+      <title>Google I/O - Build with Chrome multiplayer</title>
+      <link>http://agigen.se/blog/2014-07-18-google-io-build-with-chrome/</link>
+      <pubDate>Fri, 29 Aug 2014 13:59:36 CEST</pubDate>
+      
+      <guid>http://agigen.se/blog/2014-07-18-google-io-build-with-chrome/</guid>
+      <description>&lt;p&gt;Build&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TSIC Network Map</title>
+      <link>http://agigen.se/blog/2014-02-26-tsic-network-map/</link>
+      <pubDate>Wed, 26 Feb 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2014-02-26-tsic-network-map/</guid>
+      <description>
+
+&lt;p&gt;Through the agency Hilanders we were put on the job to build the backend and frontend of TeliaSoneras Network Map &amp;#8211; a whirlpool of connections, IPX landlines and to show the strength and capabailites of the TeliaSonera IC network.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2014/02/tsic2.jpg&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;For eons in the past, TeliaSonera showed their gigantic network on nothing other than an old Flash-based animated map. Simple drag &amp;amp; drop and no admin but a huge, un-organized XML file. That had to change. The best approach would be to implement a solid, all-device-friendly map with a strong API &amp;#8211; so that&amp;#8217;s what we did, and of course we did it with Google Maps. By changing colours and style of the inherited Google Maps stylesheet through JSON we could replicate the TeliaSonera brand into Google Maps, all while building a fancy UI to also go seamlessly with the map in the background.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Frontend&lt;/h1&gt;
+
+&lt;p&gt;&lt;img alt=&#34;tsicmap&#34; src=&#34;/img/blog/posts/2014/02/tsicmap.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coming from a very 3D-esque map in the past, TeliaSonera now wanted (understandably) a new, fresh looking flat design. By working with concepts from Hilanders and the wishes of TeliaSonera we came up with the final design that can be seen live on &lt;a href=&#34;http://www.teliasoneraicmap.com/&#34;&gt;http://www.teliasoneraicmap.com/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Backend&lt;/h1&gt;
+
+&lt;p&gt;The backend was made with Google App Engine, and we won&amp;#8217;t lie &amp;#8211; it was quite the hassle to get all the different points to connect properly through a massive network of Metro points, sub-metro points, normal points&amp;#8230; alot of points.&lt;/p&gt;
+
+&lt;p&gt;The Google Maps API helped alot with different functions already available for drawing lines across the map and placing images ontop of certain cordinates &amp;#8211; an API we&amp;#8217;re well accustomed to by now.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The site is currently live at &lt;a href=&#34;http://www.teliasoneraicmap.com/&#34;&gt;http://www.teliasoneraicmap.com/&lt;/a&gt;. Check it out!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MittVatten - taking great care of Swedens water supply</title>
+      <link>http://agigen.se/blog/2014-02-26-mittvatten-taking-great-care-of-swedens-water-supply/</link>
+      <pubDate>Wed, 26 Feb 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2014-02-26-mittvatten-taking-great-care-of-swedens-water-supply/</guid>
+      <description>&lt;p&gt;For a while now we&amp;#8217;ve been working with the frontend and backend of www.mittvatten.se &amp;#8211; a site that is all about how to take care of Swedens perhaps greatest asset: its water!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2014/02/mittvatten1.jpg&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;The site was designed mostly by &lt;a href=&#34;http://www.hilanders.se&#34;&gt;Hilanders&lt;/a&gt;, a Stockholm-based agency. They were put on the job by the semi-state funded organisation Svenskt Vatten (Swedish Water) in conjunction
+with one of their initiatives MittVatten (MyWater).&lt;/p&gt;
+
+&lt;p&gt;For this project we used &lt;a href=&#34;http://html.adobe.com/edge/animate/&#34;&gt;Adobe Edge Animate&lt;/a&gt; for the first time, one of the newest tools in the Adobe CC family.
+The tool makes building full HTML5 parallax on both vertical and horizontal a breeze. It&amp;#8217;s basically Flash &amp;#8211; but without Flash.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2014/02/edge.png&#34; alt=&#34;edge&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The site teaches young students about the circle of life in the world of water, and how to preserve our current state of being in the Top 10 of the world&amp;#8217;s best water-caretakers.
+Read more and get educated at the same time over at &lt;a href=&#34;http://www.mittvatten.se&#34;&gt;www.mittvatten.se&lt;/a&gt; (Swedish only).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hobbit 2 - A journey through middle earth released</title>
+      <link>http://agigen.se/blog/2013-12-04-hobbit-2-a-journey-through-middle-earth-released/</link>
+      <pubDate>Wed, 04 Dec 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-12-04-hobbit-2-a-journey-through-middle-earth-released/</guid>
+      <description>
+
+&lt;p&gt;To promote the release of The Hobbit 2 &amp;#8211; The Desolation of Smaug we created a interactive experience together with North Kingdom, Google and Warner Bros. Agigen took care of everything on the back end side, such as scaling, market- and language-handling as well as the admin tools.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2014/01/hobbit.jpg&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://middle-earth.thehobbit.com/&#34;&gt;Visit the site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Partners: North Kingdom, Dinahmoe, Plan 8, Schimpanz, More Media&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Press&lt;/h1&gt;
+
+&lt;p&gt;&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.50.29&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.50.29-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.50.14&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.50.14-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.50.10&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.50.10-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.50.08&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.50.08-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.50.06&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.50.06-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.50.03&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.50.03-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.49.59&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.49.59-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.49.53&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.49.53-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.49.49&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.49.49-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.49.41&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.49.41-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.49.38&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.49.38-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 11.49.34&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-11.49.34-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 15.20.15&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-15.20.15-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 15.20.02&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-15.20.02-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 15.19.52&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-15.19.52-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 15.19.38&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-15.19.38-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 15.19.25&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-15.19.25-.png&#34; /&gt;
+&lt;img alt=&#34;Screen Shot 2013-11-21 at 15.19.22&#34; src=&#34;/img/blog/posts/2013/12/Screen-Shot-2013-11-21-at-15.19.22-.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Links&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.northkingdom.com/cases/hobbit/&#34;&gt;Read the case study at North Kingdom&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
