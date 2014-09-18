@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible}"
+  scroll-spy
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> Agigen &middot; Agigen </title>
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser-ie';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  
+  <link href="http://agigen.se/index.xml/" rel="alternate" type="application/rss+xml" title="Agigen">
+
+  <meta name="description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+  <meta itemprop="name" content="Agigen - Agile Generation AB">
+  <meta itemprop="description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+
+  <meta itemprop="image" content="http://agigen.se/img/share/opengraph.jpg">
+  <meta property="og:image" content="http://agigen.se/img/share/opengraph.jpg">
+  <meta name="twitter:image" content="http://agigen.se/img/share/opengraph.jpg">
+
+  <meta property="og:title" content="Agigen - Agile Generation AB">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agigen.se">
+  <meta property="og:description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+  <meta property="og:url" content="http://agigen.se">
+  <meta property="fb:admins" content="562883652,1205209891">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@agigen">
+  <meta name="twitter:creator" content="@lendai">
+  <meta name="twitter:title" content="Agigen - Agile Generation AB">
+  <meta name="twitter:description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--agigen
+
+  page--node
+
+">
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Showcase </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar" ng-class="{'menu-expanded': menuVisible}">
+    <div class="container">
+        <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+            <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                    C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+            </svg>
+
+        </a></h1>
+
+        
+
+
+        <button class="topbar__menu-button" ng-click="menuVisible = !menuVisible" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+            <div class="topbar__menu-button__inner"></div>
+            <span class="accessibility">Menu</span>
+
+        </button>
+
+
+    </div>
+</div>
+
+
+<header class="main-header main-header--start" ng-controller="introCtrl" scroll-spy>
+    <div class="main-header__content">
+        <div class="container text--light">
+
+            <div class="start-circle">
+                <svg version="1.1" class="start-circle__title" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 420 280" enable-background="new 0 0 420 280" xml:space="preserve">
+                <path fill="#ffffff" d="M74.3,64L91.4,6H77l-10.4,42L55.2,6h-10l-11.4,42L23.3,6H9L26.2,64h13.6l10.4-39.9L60.7,64H74.3z"></path>
+                <path fill="#ffffff" d="M139.9,64V53.2h-29.7V40h29.1V29.1h-29.1V16.9h29.7V6H97.4V64H139.9z"></path>
+                <path fill="#ffffff" d="M237.9,64V6h-18l-14.6,35.1L190.8,6h-17.9V64h12.8V23.4L202.6,64h5.6l16.9-40.7V64H237.9z"></path>
+                <path fill="#ffffff" d="M305.8,64L282.6,6h-16L243.4,64H258l3.8-9.8h25.7l3.7,9.8H305.8z M284,43.3h-18.7l9.4-25L284,43.3z"></path>
+                <path fill="#ffffff" d="M362.7,64l-25.5-30.8L361.1,6h-15.7l-21.2,25.9V6h-12.8V64h12.8V46.2l4.7-5.4L347,64H362.7z"></path>
+                <path fill="#ffffff" d="M411,64V53.2h-29.7V40h29.1V29.1h-29.1V16.9H411V6h-42.5V64H411z"></path>
+                <path fill="#ffffff" d="M50.5,133.7V86.5h17.5V75.6H20.1v10.9h17.5v47.2H50.5z"></path>
+                <path fill="#ffffff" d="M130.1,133.7V75.6h-12.9v22.8H88.9V75.6H76.1v58.1h12.8v-24.4h28.3v24.4H130.1z"></path>
+                <path fill="#ffffff" d="M184.4,133.7v-10.9h-29.7v-13.1h29.1V98.8h-29.1V86.5h29.7V75.6h-42.5v58.1H184.4z"></path>
+                <path fill="#ffffff" d="M276.8,133.7l17.1-58.1h-14.4l-10.4,42l-11.3-42h-10l-11.4,42l-10.5-42h-14.3l17.2,58.1h13.6l10.4-39.9
+                    l10.5,39.9H276.8z"></path>
+                <path fill="#ffffff" d="M342.4,133.7v-10.9h-29.7v-13.1h29.1V98.8h-29.1V86.5h29.7V75.6H300v58.1H342.4z"></path>
+                <path fill="#ffffff" d="M385,133.7c11.4,0,17.5-7,17.5-15.7c0-7.3-5.1-13.3-11.5-14.3c5.7-1.1,10.3-6,10.3-13.3
+                    c0-7.7-5.8-14.8-17.3-14.8h-31.6v58.1H385z M381.2,98.9h-16V86.2h16c4.3,0,7,2.7,7,6.4C388.2,96.3,385.5,98.9,381.2,98.9z
+                     M381.6,123h-16.5v-13.5h16.5c5,0,7.7,3.1,7.7,6.8C389.4,120.5,386.5,123,381.6,123z"></path>
+                <path fill="#ffffff" d="M73.5,203.3l-25-58.1h-3.4l-25,58.1h3.3l6.7-15.6h33.5l6.7,15.6H73.5z M62.4,185.1H31.1l15.7-36.6L62.4,185.1z"
+                    ></path>
+                <path fill="#ffffff" d="M129.6,203.3c10.5,0,17.2-5.7,17.2-15.7c0-6.7-5.4-13.3-11.8-14.3c5.3-1,10.6-6,10.6-13.3
+                    c0-9.6-6.7-14.8-16.4-14.8h-22.6v58.1H129.6z M129.3,172.2h-19.7v-24.3h19.7c8.8,0,13.2,5.6,13.2,12.2
+                    C142.5,166.8,138.1,172.2,129.3,172.2z M129.6,200.7h-20.1v-25.9h20.1c9.4,0,14,6.4,14,13C143.6,195.7,138.4,200.7,129.6,200.7z"></path>
+                <path fill="#ffffff" d="M197.4,203.3v-2.6h-33.8v-25.9h33.2v-2.6h-33.2v-24.3h33.8v-2.6h-36.7v58.1H197.4z"></path>
+                <path fill="#ffffff" d="M229.5,203.3v-55.5h20.3v-2.6h-43.5v2.6h20.2v55.5H229.5z"></path>
+                <path fill="#ffffff" d="M279.8,203.3v-55.5h20.3v-2.6h-43.5v2.6h20.2v55.5H279.8z"></path>
+                <path fill="#ffffff" d="M348.1,203.3v-2.6h-33.8v-25.9h33.2v-2.6h-33.2v-24.3h33.8v-2.6h-36.7v58.1H348.1z"></path>
+                <path fill="#ffffff" d="M400.9,203.3l-18.5-25.1c9.7,0,17.7-5.9,17.7-16.5c0-10.6-8-16.5-17.7-16.5h-20.7v58.1h2.9v-25.1h14.4
+                    l18.3,25.1H400.9z M382.3,175.6h-17.8v-27.8h17.8c8.8,0,14.6,5.8,14.6,13.8C396.9,169.7,391.1,175.6,382.3,175.6z"></path>
+                <path fill="#ffffff" d="M93.5,273v-25.2h17.9c11,0,17.5-7.6,17.5-16.5c0-8.9-6.4-16.5-17.5-16.5H90.6V273H93.5z M111.3,245.2H93.5
+                    v-27.7h17.8c8.8,0,14.5,5.8,14.5,13.8S120.1,245.2,111.3,245.2z"></path>
+                <path fill="#ffffff" d="M173.5,273v-2.6h-30.1v-55.5h-2.9V273H173.5z"></path>
+                <path fill="#ffffff" d="M232.8,273l-25-58.1h-3.4l-25,58.1h3.3l6.7-15.6h33.5l6.7,15.6H232.8z M221.7,254.8h-31.3l15.7-36.6
+                    L221.7,254.8z"></path>
+                <path fill="#ffffff" d="M266.9,274c8.5,0,15.3-3,21-9.2l-2.3-1.8c-4.2,5.1-11.2,8.4-18.6,8.4c-15,0-26.8-11.2-26.8-27.4
+                    c0-16.4,11.8-27.4,26.8-27.4c7.5,0,14.4,3.3,18.6,8.4l2.2-1.9c-5.3-5.9-12.4-9.1-20.9-9.1c-16.6,0-30,12.2-30,30
+                    C236.9,261.8,250.3,274,266.9,274z"></path>
+                <path fill="#ffffff" d="M335.7,273v-2.6h-33.8v-25.9h33.2v-2.6h-33.2v-24.3h33.8v-2.6H299V273H335.7z"></path>
+                </svg>
+
+                <svg class="start-circle__circle" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 630 627.9" enable-background="new 0 0 630 627.9" xml:space="preserve">
+                    <path class="start-circle__circle__path" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+                    M345.6,612.7c151-15.3,268.9-142.9,268.9-298c0-165.4-134.1-299.5-299.5-299.5S15.5,149.3,15.5,314.7c0,155.1,117.9,282.6,268.9,298
+                    "></path>
+                </svg>
+
+
+                <svg class="start-circle__scroll" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 30 46" enable-background="new 0 0 30 46" xml:space="preserve">
+                    <path class="start-circle__scroll__path" fill="#FFFFFF" d="M15,3V2C7.8,2,2,7.8,2,15v16c0,7.2,5.8,13,13,13c7.2,0,13-5.8,13-13V15c0-7.2-5.8-13-13-13V3v1
+                        c3,0,5.8,1.2,7.8,3.2c2,2,3.2,4.7,3.2,7.8v16c0,3-1.2,5.8-3.2,7.8c-2,2-4.7,3.2-7.8,3.2c-3,0-5.8-1.2-7.8-3.2C5.2,36.8,4,34,4,31
+                        V15c0-3,1.2-5.8,3.2-7.8C9.2,5.2,12,4,15,4V3z"></path>
+                    <path class="start-circle__scroll__path" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M14.5,13.4h1c0.8,0,1.5,0.7,1.5,1.5v5c0,0.8-0.7,1.5-1.5,1.5h-1
+                        c-0.8,0-1.5-0.7-1.5-1.5v-5C13,14.1,13.7,13.4,14.5,13.4z"></path>
+                </svg>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="could-wrapper could-wrapper--1"><div class="main-header--start__cloud main-header--start__cloud--1"></div></div>
+    <div class="could-wrapper could-wrapper--2"><div class="main-header--start__cloud main-header--start__cloud--2"></div></div>
+
+</header>
+
+
+
+<div class="main-content">
+
+
+<section class="section section--start section--start-intro">
+    <h1 class="accessibility">Agigen - Agile Generation AB</h1>
+    <h2 class="accessibility">We make the web a better place</h2>
+
+    <p class="section--start__copy section--start-intro__ingress beta">
+        Agigen is a creative web agency based in Stockholm, Sweden.<br>
+        We create beautiful <span class="color--pink">design</span>, powerful <span class="color--blue">code</span> and <span class="color--orange">cool ideas</span>.
+    </p>
+
+    <h3 class="section--start-intro__logos-header">Friends &amp; clients</h3>
+
+
+    <div class="section--start-intro__logos container">
+        <img src="/img/start/logos/logga_mcdonalds.svg" alt="McDonalds" class="client-logo client-logo--mcdonalds" width="60" height="50">
+        <img src="/img/start/logos/logga_lego.svg" alt="LEGO" class="client-logo client-logo--lego" width="90" height="40">
+        <img src="/img/start/logos/logga_google.svg" alt="Google" class="client-logo client-logo--google" width="140" height="46">
+        <img src="/img/start/logos/logga_sj.svg" alt="SJ" class="client-logo client-logo--sj" width="80" height="56">
+        <img src="/img/start/logos/logga_sony.svg" alt="Sony" class="client-logo client-logo--sony" width="160" height="27">
+        <img src="/img/start/logos/logga_vodafone.svg" alt="Vodafone" class="client-logo client-logo--vodafone" width="160" height="26">
+        <img src="/img/start/logos/logga_wb.svg" alt="Warner Bros" class="client-logo client-logo--wb" width="50" height="60">
+
+        <img src="/img/start/logos/logga_samsung.svg" alt="Samsung" class="client-logo client-logo--samsung" width="140" height="20">
+        <img src="/img/start/logos/logga_adidas.svg" alt="Adidas" class="client-logo client-logo--adidas" width="70" height="44">
+        <img src="/img/start/logos/logga_volvo.svg" alt="Volvo" class="client-logo client-logo--volvo" width="150" height="20">
+        <img src="/img/start/logos/logga_carlsberg.svg" alt="Carlsberg" class="client-logo client-logo--carlsberg" width="120" height="43">
+        <img src="/img/start/logos/logga_mini.svg" alt="Mini" class="client-logo client-logo--mini" width="120" height="50">
+        <img src="/img/start/logos/logga_netflix.svg" alt="Netflix" class="client-logo client-logo--netflix" width="120" height="30">
+    </div>
+
+</section>
+
+
+<section class="section section--start section--start-webprod text--center animate--in-view"
+ng-controller="parallaxCtrl" ng-mousemove="updateParallax($event)">
+
+    <div class="section__content">
+        <div class="container container--tight">
+
+            <p class="section--start__ingress">All shapes and sizes</p>
+            <h2 class="section--start__title"><a href="/services/web-production">Web Production</a></h2>
+
+            <p class="section--start__copy">We build awesome websites for our clients. Are you in need of kickass frontend development or scalable backends you should check us out.</p>
+
+            <a href="/services/web-production" class="btn btn--large">Learn about our process</a>
+        </div>
+    </div>
+
+    <div class="lax lax--back">
+        <img src="/img/start/webprod/back.png" ng-style="{'transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)', '-webkit-transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)', '-moz-transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)', '-ms-transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)'}">
+    </div>
+    <div class="lax lax--middle">
+        <div class="lax__container" ng-style="{'transform': 'translate3d('+x2+'%,'+y2+'%,0)', '-webkit-transform': 'translate3d('+x2+'%,'+y2+'%,0)', '-moz-transform': 'translate3d('+x2+'%,'+y2+'%,0)', '-ms-transform': 'translate3d('+x2+'%,'+y2+'%,0)'}">
+            <a href="/work/build-with-chrome/" class="lax__link lax__link--chrome">Build with Chrome</a>
+            <a href="/work/samsung-youneedtoseethis/" class="lax__link lax__link--samsung">Samsung Youneedtoseethisapp.com</a>
+        </div>
+    </div>
+    <div class="lax lax--front">
+        <img src="/img/start/webprod/front.png" ng-style="{'transform': 'translate3d('+x3+'%,'+y3+'%,0)', '-webkit-transform': 'translate3d('+x3+'%,'+y3+'%,0)', '-moz-transform': 'translate3d('+x3+'%,'+y3+'%,0)', '-ms-transform': 'translate3d('+x3+'%,'+y3+'%,0)'}">
+    </div>
+
+
+</section>
+
+<article class="case case--fullwidth case--fullwidth--samsung">
+    <div class="container">
+        <p class="case__ingress epsilon">Recent case</p>
+        <img src="/img/case/start/samsung-tab-s.png" class="case__image">
+        <p class="case__headline">Displaying <strong>4954406991</strong> pixels on a 320x568px screen.</p>
+        <h1 class="case__title">Samsung - You need to see this app</h1>
+        <a href="/work/samsung-youneedtoseethis/" class="case__cta btn btn--large">View case</a>
+    </div>
+</article>
+
+
+<section class="section section--start section--start-proddev animate--in-view"
+ng-controller="parallaxCtrl" ng-mousemove="updateParallax($event)">
+    <div class="section__content">
+        <div class="container container--tight">
+            <p class="section--start__ingress">From idea to pixel perfect</p>
+            <h2 class="section--start__title"><a href="/services/product-development">Product development</a></h2><br>
+
+            <p class="section--start__copy">We develop new products and services. Whether you're an established organization or a startup we'll help you out - from idea to finished product.</p>
+
+            <a href="/services/product-development" class="btn btn--large">Learn about our process</a>
+        </div>
+    </div>
+
+
+
+    <div class="lax lax--back">
+        <img src="/img/start/proddev/prod-back.png" ng-style="{'transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)', '-webkit-transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)', '-moz-transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)', '-ms-transform': 'scale(1.3) translate3d('+x+'%,'+y+'%,0)'}">
+    </div>
+    <div class="lax lax--middle">
+        <div class="lax__container" ng-style="{'transform': 'translate3d('+x2+'%,'+y2+'%,0)', '-webkit-transform': 'translate3d('+x2+'%,'+y2+'%,0)', '-moz-transform': 'translate3d('+x2+'%,'+y2+'%,0)', '-ms-transform': 'translate3d('+x2+'%,'+y2+'%,0)'}">
+            <a href="/work/billogram/" class="lax__link lax__link--billogram">
+                <img src="/img/start/proddev/billogram-wires.png" class="lax__link__img lax__link__img--standard">
+                <img src="/img/start/proddev/billogram-color.png" class="lax__link__img lax__link__img--hover">
+            </a>
+            <a href="/work/yogobe/" class="lax__link lax__link--yogobe">
+                <img src="/img/start/proddev/yogobe-wires.png" class="lax__link__img lax__link__img--standard">
+                <img src="/img/start/proddev/yogobe-color.png" class="lax__link__img lax__link__img--hover">
+            </a>
+        </div>
+    </div>
+    <div class="lax lax--front">
+        <img src="/img/start/proddev/prod-front.png" ng-style="{'transform': 'translate3d('+x3+'%,'+y3+'%,0)', '-webkit-transform': 'translate3d('+x3+'%,'+y3+'%,0)', '-moz-transform': 'translate3d('+x3+'%,'+y3+'%,0)', '-ms-transform': 'translate3d('+x3+'%,'+y3+'%,0)'}">
+    </div>
+
+</section>
+
+<article class="case case--fullwidth case--fullwidth--billogram">
+    <div class="container">
+        <p class="case__ingress epsilon">Recent case</p>
+        <img src="/img/case/start/billogram_screens.png" class="case__image">
+        <p class="case__headline">Invoicing on the fly - in the cloud.</p>
+        <h1 class="case__title">Billogram</h1>
+        <a href="/work/billogram" class="case__cta btn btn--large">View case</a>
+    </div>
+</article>
+
+<section class="section section--labs text--light">
+    <div class="container text--center">
+        <h2 class="section--start__title">Labs</h2>
+        <p class="delta">Our playground where we try out new tech and broaden our expertise.</p>
+        <a href="/services/labs" class="btn btn--large">Get inspired</a>
+    </div>
+
+    <div class="computer" ng-controller="chatCtrl" ng-class="{'computer--connected': connected}" ng-cloak>
+        <label class="screen" for="screen-input">
+            <ul class="screen__lines">
+                <li class="screen__line" ng-repeat="message in messages track by $index">{{ message }}</li>
+            </ul>
+            <form ng-submit="send()">
+                > <input type="text" value="" id="screen-input" class="screen__input" ng-model="message" ng-readonly="messages.length==2" ng-keydown="keyDown($event)" autocomplete="off">
+            </form>
+        </label>
+    </div>
+</section>
+
+<section class="section section--start-contact">
+    <div class="container">
+        <p class="section--start__ingress section--start-contact__ingress ">Let's hear your idea</p>
+        <h2 class="alpha">Get in touch</h2>
+
+        <div class="grid">
+    <div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label contactways__label--left">Mail</dt>
+            <dd class="contactways__action contactways__action--left"><a href="mailto:hello@agigen.se">hello@agigen.se</a></dd>
+
+            <dt class="contactways__label contactways__label--left">Address</dt>
+            <dd class="contactways__action contactways__action--left"><a href="https://maps.google.com/maps?t=m&amp;q=Kaptensgatan+6%2C+Stockholm%2C+Sverige" target="_blank">Kaptensgatan 6</a></dd>
+        </dl>
+    </div><div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label">Call</dt>
+            <dd class="contactways__action"><a href="tel:+468201337">+46 (0)8 20 1337 </a></dd>
+
+            <dt class="contactways__label">Zippity-zip</dt>
+            <dd class="contactways__action">114 57 Stockholm</dd>
+        </dl>
+    </div>
+</div>
+
+
+    </div>
+</section>
+
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+    </div>
+
+    <nav class="main-footer__links">
+        <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link">Facebook</a>
+        <a href="https://www.linkedin.com/company/640656" target="_blank" class="main-footer__link">LinkedIn</a>
+        <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact us</a>
+    </nav>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js"></script>
+    </body>
+</html>
+
