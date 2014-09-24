@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible2}"
+  scroll-spy
+  ng-keyup="menuKeyup($event)"
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    Uppsalastudent
+    
+    &middot; Agigen
+    
+  </title>
+
+
+
+
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser-ie';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Agigen">
+
+
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="fb:admins" content="562883652,1205209891">
+
+<meta property="og:site_name" content="Agigen.se">
+<meta name="twitter:site" content="@agigen">
+<meta name="twitter:creator" content="@lendai">
+<meta property="og:url" content="http://agigen.se/work/uppsalastudent/">
+
+
+
+
+
+<meta itemprop="description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+<meta name="description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+<meta property="og:description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+<meta name="twitter:description" content="Agigen - We make the web a better place. A digital web production agency in Stockholm, Sweden.">
+
+<meta itemprop="image" content="http://agigen.se/img/share/opengraph.jpg ">
+<meta property="og:image" content="http://agigen.se/img/share/opengraph.jpg ">
+<meta name="twitter:image" content="http://agigen.se/img/share/opengraph.jpg ">
+
+<meta itemprop="name" content="Agigen - Agile Generation AB">
+<meta property="og:title" content="Agigen - Agile Generation AB">
+<meta name="twitter:title" content="Agigen - Agile Generation AB">
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//agigen-slack-chat.appspot.com">
+
+  <script type="text/javascript" charset="utf-8">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7546376-1']);
+      _gaq.push(['_trackPageview']);
+  </script>
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--uppsalastudent
+
+  page--page
+  page--work
+  page--work--uppsalastudent
+
+">
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible, 'main-menu--visible-content': menuVisible2}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Case studies </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar" ng-class="{'menu-expanded': menuVisible}">
+    <div class="container">
+        <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+            <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                    C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+            </svg>
+
+        </a></h1>
+
+
+
+        <button class="topbar__menu-button" ng-click="toggleMenu()" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+            <div class="topbar__menu-button__inner"></div>
+            <span class="accessibility">Menu</span>
+
+        </button>
+
+
+    </div>
+</div>
+
+
+<header class="main-header">
+    <div class="main-header__content">
+        <div class="container text--light">
+
+            
+
+            <h1 class="main-header__title">Uppsalastudent</h1>
+
+            
+                <h2 class="main-header__subtitle">Kuratorskonventet</h2>
+            
+
+        </div>
+    </div>
+    
+</header>
+
+<div class="main-content">
+
+
+<div class="content content--page-work">
+    <img src="/img/work/case/uppsalastudent/topimage-retina.png" class="work__header-image work__header-image--uppsalastudent">
+
+<section class="work__tldr">
+    <div class="container container--tight">
+        <h3 class="work__tldr__pretitle">What it is</h3>
+        <h2>
+            The primary source for students at Uppsala University, Swedens oldest university, to register for the student nations, unions and apply for housing.
+        </h2>
+        <a href="https://uppsalastudent.com/" class="btn btn--large" target="_blank">Visit website</a>
+    </div>
+</section>
+
+<section class="work__section work__section--three-points work__section--uppsalastudent--three-points">
+    <div class="container">
+        <div class="grid">
+            <div class="grid__item lap-and-up-one-third">
+                <strong>Housing</strong><br>
+                Trying to tackle the increasing problem with student housing by making it all accessible online.
+            </div><!--
+            --><div class="grid__item lap-and-up-one-third">
+                <strong>Student unions</strong><br>
+                Get organized and fight the power.
+            </div><!--
+            --><div class="grid__item lap-and-up-one-third">
+                <strong>The nation guide</strong><br>
+                Stay updated with all the latest events, clubs and other student organized events all over Uppsala.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container container--tight work__section">
+    <h2>Background</h2>
+    <p>
+        A couple of the student nations in Uppsala joined forces to produce a common site where new students easily could read about how to sign up for new housing as well as actually register at the nations and sign up for housing. Being former students in Uppsala ourselves, with intimate knowledge of the pen and paper approach many nations used, it was a fun and challenging project to help them enter the digital era.
+    </p>
+</section>
+
+<section class="work__divider work__divider--uppsalastudent">
+    <div class="container">
+        <img src="/img/work/case/uppsalastudent/objects-retina.png" class="work__divider--uppsalastudent__image">
+    </div>
+</section>
+
+
+
+<section class="container container--tight work__section">
+    <h2>What we have done</h2>
+    <p>
+        We created front- and backend for the project. Design was provided by an external agency. It was technically challenging because so many of the nations had different rules regulating who could apply for what type of accomodation. They also wanted to be able to edit the site's content quite a lot which was why we had to create quite an extensive admin, covering both handling members at the nations, the queues to the housings and the content of the site.
+    </p>
+    <p>
+        As uppsalastudent became a well used tool, some of the other nations also wanted to add their housings to the system, which led to additional development in the summer of 2013.
+    </p>
+</section>
+
+<section class="section hard--top">
+    <div class="grid text--center">
+        <div class="grid__item one-half lap-four-sixths palm-nine-twelfths">
+            <div screen-carousel="/img/work/case/uppsalastudent/screenshot1.jpg,/img/work/case/uppsalastudent/screenshot2.jpg,/img/work/case/uppsalastudent/screenshot3.jpg"></div>
+        </div>
+    </div>
+</section>
+
+<section class="container container--tight work__section">
+    <h2>Afterwards</h2>
+    <p>
+        Being one of our earliest projects, there are of course things we've learned along the way that had we the time and budget we'd change in uppsalastudent. We're still maintaining the system and it's working satisfactorily, but there are no major changes planned for the forseeable future, so we'll see if we get a chance to update it someday.
+    </p>
+</section>
+
+<section class="section work__section work__section--grandfinale work__section--uppsalastudent--grandfinale">
+    <div class="section__content">
+        <div class="container">
+            <h3 class="work__section--grandfinale__header">Interesting Trivia</h3>
+            <div class="work__section--grandfinale__copy">
+                At present Uppsala's nations own roughly 3500 residences.
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <section class="section section--start-contact">
+        <div class="container">
+            <p class="section--start__ingress section--start-contact__ingress ">Want to make something like this?</p>
+            <h3 class="alpha">Get in touch</h3>
+
+            <div class="grid">
+    <div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label contactways__label--left">E-mail</dt>
+            <dd class="contactways__action contactways__action--left"><a href="mailto:hello@agigen.se">hello@agigen.se</a></dd>
+
+            <dt class="contactways__label contactways__label--left">Address</dt>
+            <dd class="contactways__action contactways__action--left"><a href="https://maps.google.com/maps?t=m&amp;q=Kaptensgatan+6%2C+Stockholm%2C+Sverige" target="_blank">Kaptensgatan 6</a></dd>
+        </dl>
+    </div><div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label">Call</dt>
+            <dd class="contactways__action"><a href="tel:+468201337">+46 (0)8 20 1337 </a></dd>
+
+            <dt class="contactways__label">Zippity-zip</dt>
+            <dd class="contactways__action">114 57 Stockholm</dd>
+        </dl>
+    </div>
+</div>
+
+
+        </div>
+    </section>
+
+</div>
+
+
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+        <nav class="main-footer__links">
+            <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link">Facebook</a>
+            <a href="https://www.linkedin.com/company/640656" target="_blank" class="main-footer__link">LinkedIn</a>
+            <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact us</a>
+        </nav>
+    </div>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular-touch.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js"></script>
+    </body>
+</html>
+
