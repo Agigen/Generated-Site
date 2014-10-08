@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Work on Agigen </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://agigen.se/work/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Fri, 29 Aug 2014 16:56:20 CEST</updated>
+    
+    <item>
+      <title>Uppsalastudent</title>
+      <link>http://agigen.se/work/uppsalastudent/</link>
+      <pubDate>Fri, 29 Aug 2014 16:56:20 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/uppsalastudent/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/uppsalastudent/topimage-retina.png&#34; class=&#34;work__header-image work__header-image--uppsalastudent&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            The primary source for students at Uppsala University, Swedens oldest university, to register for the student nations, unions and apply for housing.
+        &lt;/h2&gt;
+        &lt;a href=&#34;https://uppsalastudent.com/&#34; class=&#34;btn btn--large&#34; target=&#34;_blank&#34;&gt;Visit website&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--uppsalastudent--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Housing&lt;/strong&gt;&lt;br&gt;
+                Trying to tackle the increasing problem with student housing by making it all accessible online.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Student unions&lt;/strong&gt;&lt;br&gt;
+                Get organized and fight the power. No, but, you know, join a nation, meet new friends and drink beer!
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;The nation guide&lt;/strong&gt;&lt;br&gt;
+                Stay updated with all the latest events, clubs and other student organized events all over Uppsala.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        A couple of the student nations in Uppsala joined forces to produce a common site where new students easily could read about how to sign up for new housing as well as actually register at the nations and sign up for housing. Being former students in Uppsala ourselves, with intimate knowledge of the pen and paper approach many nations used, it was a fun and challenging project to help them enter the digital era.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;figure class=&#34;image-wrapper image-wrapper--strikethrough image-wrapper--uppsalastudent&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;img src=&#34;/img/work/case/uppsalastudent/objects-retina.png&#34; class=&#34;image&#34;&gt;
+    &lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;What we have done&lt;/h2&gt;
+    &lt;p&gt;
+        We created front- and backend for the project. Design was provided by an external agency. It was technically challenging because so many of the nations had different rules regulating who could apply for what type of accomodation. They also wanted to be able to edit the site&#39;s content quite a lot which was why we had to create quite an extensive admin, covering both handling members at the nations, the queues to the housings and the content of the site.
+    &lt;/p&gt;
+    &lt;p&gt;
+        As uppsalastudent became a well used tool, some of the other nations also wanted to add their housings to the system, which led to additional development in the summer of 2013.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section hard--top&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/uppsalastudent/screenshot1.jpg,/img/work/case/uppsalastudent/screenshot2.jpg,/img/work/case/uppsalastudent/screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        Being one of our earliest projects, there are of course things we&#39;ve learned along the way that had we the time and budget we&#39;d change in uppsalastudent. We&#39;re still maintaining the system and it&#39;s working satisfactorily, but there are no major changes planned for the forseeable future, so we&#39;ll see if we get a chance to update it someday.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--uppsalastudent--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Trivia&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;
+                At present Uppsala&#39;s nations own roughly 3500 residences.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Yogobe</title>
+      <link>http://agigen.se/work/yogobe/</link>
+      <pubDate>Fri, 29 Aug 2014 16:56:07 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/yogobe/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/yogobe/top-macbook-retina.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            A platform for yogis in the nordic countries looking for great instruction videos from the best instructors.
+        &lt;/h2&gt;
+        &lt;a href=&#34;https://www.yogobe.com&#34; class=&#34;btn btn--large&#34; target=&#34;_blank&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--yogobe--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The project&lt;/strong&gt;&lt;br&gt;
+                A product development project for Yogobe, made from scratch.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Yoga&lt;/strong&gt;&lt;br&gt;
+                Find your inner peace, strenght and beauty. Namaste.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Yoga as a service. Access your favourite instructors anywhere.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        The start up company Yogobe wanted to create an online service which provided subscriptions of yoga instructions and training programs for a monthly fee.&lt;br&gt;
+        Yoga anywhere via video tutorials and be inspired by some of the best yoga instructors in Sweden. With Yogobe you can do your practice when, where and how often you want. They also function as a guide within travel, education, music and much more.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section work-video=&#34;yogobe&#34; embed-youtube=&#34;aI10QpTTECc&#34; ng-cloak ng-click=&#34;play()&#34;&gt;
+    &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon&#34;&gt;This is Yogobe&lt;/h3&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Watch &lt;span class=&#34;play-icon&#34;&gt;the&lt;/span&gt; video&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;What we have done&lt;/h2&gt;
+    &lt;p&gt;
+        The service is basically a Netflix for yoga videos. We had to work a lot with different user roles and access rights to different content, since depending on the type of subscription the user would have access to different content. Integration with payment systems and of course an easy to understand CMS for the instructors to upload their new content were also a big part of the development.
+    &lt;/p&gt;
+
+&lt;/section&gt;
+
+&lt;section class=&#34;section hard--top hard--bottom&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/yogobe/screenshot1.jpg,/img/work/case/yogobe/screenshot2.jpg,/img/work/case/yogobe/screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        Continued development has been handled by a freelancer, and the service has expanded to Norway and Finland as well.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--yogobe--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Trivia&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;Yoga is the physical, mental, and spiritual practice or discipline that aims to transform body and mind.&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Billogram</title>
+      <link>http://agigen.se/work/billogram/</link>
+      <pubDate>Fri, 29 Aug 2014 13:02:37 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/billogram/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/billogram/top-billogram-retina.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2 class=&#34;beta&#34;&gt;
+            Billogram is an online service aimed at smaller Swedish companies, making invoicing easier and helping the companies save time.
+        &lt;/h2&gt;
+        &lt;a href=&#34;https://www.billogram.com&#34; class=&#34;btn btn--large&#34; target=&#34;_blank&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--billogram--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The project&lt;/strong&gt;&lt;br&gt;
+                A product development project for Billogram. Create the MVP for a new financial service.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Simplify how businesses gets paid for their work.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;The success&lt;/strong&gt;&lt;br&gt;
+                Billogram have processed more than 2.5 billion SEK in payments.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--awards&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/internetworld.svg&#34; alt=&#34;Internetworld&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Hottest Digital Entrepreneurs 2013&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/svd.svg&#34; alt=&#34;SvD&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Swedens Hottest Entrepreneurs&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/idg.svg&#34; alt=&#34;IDG&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Featured article in IDG&#39;s Computer Sweden&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        We helped the startup Billogram to develop the first version of their online invoice service. The service was meant to make invoicing easier; with easy overview of what&#39;s been paid, what is still pending and which invoices are overdue.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Automatic reminders for overdue payments and built-in escalation to collectors enables the customer to invoice once and then let the system take care of the rest.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section hard--top hard--bottom&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/billogram/screenshot1.jpg,/img/work/case/billogram/screenshot2.jpg,/img/work/case/billogram/screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;What we have done&lt;/h2&gt;
+    &lt;p&gt;
+        We provided technical expertise and actual programming, basically becoming Billogram&#39;s tech department. Development spanned over about two years, during which the first prototypes and betas were developed.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Integrations with the Swedish Central Banking System and applying all the legal regulations to invoicing provided technical challenges
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section work-video=&#34;billogram&#34; embed-youtube=&#34;9VC22QImyeM&#34; ng-cloak ng-click=&#34;play()&#34;&gt;
+    &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon&#34;&gt;This is Billogram&lt;/h3&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Watch &lt;span class=&#34;play-icon&#34;&gt;the&lt;/span&gt; video&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        In late 2013 Billogram aquired the programmers that had been working on the service and are now on their way to expand into other countries.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--billogram--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Trivia&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;
+                8000+ Entrepreneurs have so far chosen Billogram’s service.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Big Blog Exchange</title>
+      <link>http://agigen.se/work/big-blog-exchange/</link>
+      <pubDate>Fri, 29 Aug 2014 12:56:42 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/big-blog-exchange/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/bigblog/asset_headerlaptop.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            The Big Blog Exchange is a non-profit initiative giving anyone the chance to explore the world through blogging
+        &lt;/h2&gt;
+        &lt;a href=&#34;http://www.bigblogexchange.org/&#34; class=&#34;btn btn--large&#34; target=&#34;_blank&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--bigblog--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The site&lt;/strong&gt;&lt;br&gt;
+                The site is driven mostly by it’s participating bloggers, with the site changing appearance and content depending on submissions.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Attract bloggers around the globe to participate in what could be described as a foreign-exchange student programme.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;A lot of bloggers&lt;/strong&gt;&lt;br&gt;
+                633 bloggers from 60 countries and a total of 128 248 votes.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        Hostelling International works to provide safe, affordable accomodations to promote cultural exchange among youths. With this in mind Pond developed the concept of the Big blog exchange; what better way to learn about a new culture than to live it?
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;a href=&#34;http://pondsthlm.com/&#34;&gt;Pond&lt;/a&gt; wanted bloggers from all over the world to sign up for the challenge, promoting their own blogs and gaining votes to become the top blogs of their continent. The most popular blogs would then be paired up and the writers would swap lives with each other, blogging about it all the while.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section hard--top&#34;&gt;
+    &lt;div class=&#34;container text--center&#34;&gt;
+        &lt;h2 class=&#34;epsilon&#34;&gt;Early designs&lt;/h2&gt;
+
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item one-third&#34;&gt;
+                &lt;img src=&#34;/img/work/case/bigblog/asset_design1.jpg&#34;&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-third&#34;&gt;
+                &lt;img src=&#34;/img/work/case/bigblog/asset_design2.jpg&#34;&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-third&#34;&gt;
+                &lt;img src=&#34;/img/work/case/bigblog/asset_design3.jpg&#34;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;What we have done&lt;/h2&gt;
+    &lt;p&gt;
+        We were hired to to do both front- and backend on the project; signing up, voting and displaying the selected blog entries during the exchange. E-mail integrations to help spread the word and for the 2014 edition we also helped with design.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section hard--top hard--bottom&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/bigblog/screenshot1.jpg,/img/work/case/bigblog/screenshot2.jpg,/img/work/case/bigblog/screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        The Big blog exchange was such a hit in 2013 that it was repeated for 2014 with some updated designs but with the same concept. It is at the moment of writing just about to close down voting and determine this years winners.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--bigblog--the-exchange&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon text--light&#34;&gt;The Exchange 2014&lt;/h3&gt;
+        &lt;img src=&#34;/img/work/case/bigblog/asset_peopleflying.jpg&#34;&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>The Liberation</title>
+      <link>http://agigen.se/work/only-the-liberation/</link>
+      <pubDate>Fri, 29 Aug 2014 12:49:40 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/only-the-liberation/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/only/top-mockup-retina.png&#34; class=&#34;work__header-image work__header-image--only&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            An interactive music video that showcases ONLY&#39;s latest collection.
+        &lt;/h2&gt;
+        &lt;a href=&#34;http://onlybecausewecan.com&#34; class=&#34;btn btn--large&#34;&gt;Launch the experience&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--only--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Interactive music and UI&lt;/strong&gt;&lt;br&gt;
+                You can pause the video at anytime, and get more information about the clothes the actors are wearing in that shot.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Partners&lt;/strong&gt;&lt;br&gt;
+                We worked together with North Kingdom, and Dinahmoe took care of the interactive sound.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;Gamification&lt;/strong&gt;&lt;br&gt;
+                During the video you can interact with the experience, depending on your choices you&#39;ll get a chance to win a pair of ONLY jeans.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--awards&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/fwa.svg&#34; alt=&#34;Adobe FWA&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;SotM &amp; SotD, 2012&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/cannes.svg&#34; alt=&#34;Cannes Lions Gold&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;1 Gold &amp; 2 silver 2013&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/clio.svg&#34; alt=&#34;Clio Awards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Gold &amp; Bronze 2013&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/webby.svg&#34; alt=&#34;Webby Awards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Best use of video 2012&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section container container--tight&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        ONLY needed a new and viral way of showcasing their latest collection. The solution was an online movie called The Liberation that also contained an interactive shopping experience.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Anytime during the movie the user could hit pause, and the frame freezes. You can then click on every item of clothing worn by the characters, to browse, like, pin, tweet and buy.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+
+&lt;section work-video=&#34;only&#34; embed-youtube=&#34;kCr7ZP7KC0Q&#34; ng-cloak ng-click=&#34;play()&#34;&gt;
+    &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon&#34;&gt;ONLY Because we can&lt;/h3&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Watch &lt;span class=&#34;play-icon&#34;&gt;case&lt;/span&gt; video&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+&lt;section class=&#34;work__section container container--tight&#34;&gt;
+    &lt;h2&gt;What we&#39;ve done&lt;/h2&gt;
+    &lt;p&gt;
+        We built the backend and took care of hosting and assets. The backend handled different regions, and the gamification part with the algorithms for calculating if a visitor was a winner, depending on the region, jeans available and such.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We also took care of the forms and validations that the user got to fill in if he or she was one of the lucky ones who got a pair of jeans.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section hard--top hard--bottom&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/only/screenshot1.jpg,/img/work/case/only/screenshot2.jpg,/img/work/case/only/screenshot3.jpg,/img/work/case/only/screenshot4.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section container container--tight&#34;&gt;
+    &lt;h2&gt;Further reading&lt;/h2&gt;
+    &lt;p&gt;
+        Check out the case studies by &lt;a href=&#34;http://www.northkingdom.com/behind/only-the-liberation/&#34; target=&#34;_blank&#34;&gt;North Kingdom&lt;/a&gt; and &lt;a href=&#34;http://www.dinahmoe.com/?projects=only-the-liberation&#34; target=&#34;_blank&#34;&gt;Dinahmoe&lt;/a&gt;.&lt;br&gt;
+        All pinned material on Pinterest are &lt;a href=&#34;http://www.pinterest.com/source/onlybecausewecan.com/&#34; target=&#34;_blank&#34;&gt;curated here&lt;/a&gt;.
+
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--only--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Trivia&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;
+                Only is a Danish fashion brand present in 23 markets and sold in more than 6,500 wholesale stores worldwide.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mini Getaway</title>
+      <link>http://agigen.se/work/mini-getaway/</link>
+      <pubDate>Fri, 29 Aug 2014 12:49:26 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/mini-getaway/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/minicooper/asset_header.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            A real life experience where the participants chase a virtual Mini Cooper with their phones, with a real car as the grand prize.
+        &lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--mini--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Scalability&lt;/strong&gt;&lt;br&gt;
+                A campaign that is built around a peak in users as the competiton ends. We needed to scale with the demand.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Chase a virtual Mini using your smartphone, and have a chance of winning a real car!
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;Partners&lt;/strong&gt;&lt;br&gt;
+                We worked with Jung von Matt and Monterosa.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--awards&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/cannes.svg&#34; alt=&#34;Cannes Lions Bronze&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Bronze in Promo &amp; Media  2011
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+
+
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/cannes.svg&#34; alt=&#34;Cannes Lions Gold&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Cyber Gold 2011
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+
+
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/clio.svg&#34; alt=&#34;Clio Awards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Clio Awards Gold Innovative Media &amp; Bronze Interactive 2011
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/oneshow.svg&#34; alt=&#34;One Show&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        One Show Gold Interactive 2011
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section container container--tight&#34;&gt;
+    &lt;img src=&#34;/img/work/case/minicooper/asset_getaway2010.png&#34;&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34; container container--tight&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        This digital adaption of the game of tag surrounds a virtual MINI car. The game challenges you to hunt, catch and escape with a virtual MINI using a smartphone app.
+
+        To catch the car, you have to get within 50m of the virtual MINI and press “Take The MINI Now” in the app and then escape as fast as possible, because anyone else who gets within 50m of you can instantly take the virtual MINI back. If you are the person holding the virtual MINI after 7 days of 24/7 gaming, you’ll win a real car.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight&#34;&gt;
+    &lt;img src=&#34;/img/work/case/minicooper/asset_theapp.jpg&#34;&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section container container--tight&#34;&gt;
+    &lt;h2&gt;What we&#39;ve done&lt;/h2&gt;
+    &lt;p&gt;
+        We took care of all the backend work, as well as an interface for the people handling the competition. This was one of our earliest campaigns built on Google App Engine, and we learned a lot about some more or less common pitfalls.&lt;br&gt;
+        We also took care of a lot of anti-cheat mechanisms as there were a lot of people trying to manipulate the game to win the car.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Our backend work was used for the campaign in Tokyo and Copenhagen.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section work-video=&#34;mini&#34; embed-youtube=&#34;dUuSM2IZ8PQ&#34; ng-cloak ng-click=&#34;play()&#34;&gt;
+    &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon&#34;&gt;Mini Getaway Tokyo&lt;/h3&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Watch &lt;span class=&#34;play-icon&#34;&gt;the&lt;/span&gt; video&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container text--center work__section&#34;&gt;
+    &lt;h3 class=&#34;epsilon&#34;&gt;Check out the other videos as well&lt;/h3&gt;
+    &lt;p&gt;
+        &lt;a href=&#34;https://www.youtube.com/watch?v=dUuSM2IZ8PQ&#34; class=&#34;btn btn--on-white flush--left&#34;&gt;Mini Getaway Tokyo&lt;/a&gt;
+        &lt;a href=&#34;https://www.youtube.com/watch?v=faXunDKpAwI&#34; class=&#34;btn btn--on-white&#34;&gt;Mini Getaway Copenhagen&lt;/a&gt;
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section container container--tight hard--top&#34;&gt;
+
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        This campaign won a lot of awards, and we made a name for ourselves as a premium backend partner for ad agencies looking for scalability.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>SJ.se</title>
+      <link>http://agigen.se/work/beta-sj-se/</link>
+      <pubDate>Fri, 22 Aug 2014 15:58:40 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/beta-sj-se/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/sj/asset_headerlaptops.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            A prototype for SJ&#39;s new site. Brand new design, clearer presentation and a better user experience.
+        &lt;/h2&gt;
+        &lt;a href=&#34;http://beta.sj.se&#34; class=&#34;btn btn--large&#34; target=&#34;_blank&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--sj--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;A site for everyone&lt;/strong&gt;&lt;br&gt;
+                Focus on easy accessibility. Color blind, young, old or stupid; everyone should be able to catch the train.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                To revamp, amp, and make SJ&#39;s site pop. We were gonna make people stoked about trains!
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;Make a statement&lt;/strong&gt;&lt;br&gt;
+                Bright colors with a purpose, rebranding SJ with a more modern look and feel together with our partners at Pond.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+      In autumn 2013 a tantalizing prospect was presented to us. Our partner Pond had won the assignment to redo sj.se - Swedish Railways&#39; site. It was interesting and exciting for several reasons. It was a huge project; on a magnitude we had seldom worked before. It was technically complex, as our frontend needed to integrate with all the subsystems that was already in use at SJ. But above all, sj.se has for a long, long time been a constant thorn in many people&#39;s side; a huge site, difficult to navigate and with a less than satisfactory experience performing its main task: selling tickets.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Regularly using SJ&#39;s services ourselves, the prospect of remaking the site into something speedy and easy to use was thrilling. In short, we were so stoked.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container text--center&#34;&gt;
+
+    &lt;h3 class=&#34;epsilon&#34; style=&#34;color: #333; margin-bottom: 60px;&#34;&gt;Early concepts&lt;/h3&gt;
+    &lt;div class=&#34;grid text--center uppercase&#34;&gt;
+        &lt;div class=&#34;grid__item one-third&#34;&gt;
+            &lt;img src=&#34;/img/work/case/sj/asset_left_small.jpg&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-third&#34;&gt;
+            &lt;img src=&#34;/img/work/case/sj/asset_mid_small.jpg&#34; style=&#34;position:relative; top: -20px;&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-third&#34;&gt;
+            &lt;img src=&#34;/img/work/case/sj/asset_right_small.jpg&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+
+    &lt;h2&gt;What we have done&lt;/h2&gt;
+    &lt;p&gt;
+        Being such a large project it was divided into phases. We started out making a bunch of different prototypes for the start page; testing out different kinds of menus, layouts and use cases. In this project, we really worked more as partners than subcontractors to Pond and they let us in on the creative process, carefully listening to our input on design and UX.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We all wanted to put the emphasis on what the site was all about: Selling tickets. However, due to technical restrictions we were less than free to do as we saw fit. A lot of the information that we felt made ordering tickets so clumsy and tiresome at the current site, was unfortunately non-negotiable. It had to be there.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;figure class=&#34;image-wrapper image-wrapper--strikethrough image-wrapper--sj&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;img src=&#34;/img/work/case/sj/asset_imac_betasite.png&#34; class=&#34;image&#34;&gt;
+    &lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;p&gt;
+        We were a bit stumped, but we focused on what we could control, hoping that the subsystems would catch up and allow for a more flexible booking eventually. We iterated through a lot of different designs, aiming to make the site easy to comprehend and also easy for content providers at SJ to use. We thought a lot about how to draw focus to the right things and how to make the site easy to understand - for everybody. In this was our biggest challenge: There&#39;s hardly anyone that hasn&#39;t been to SJ&#39;s site at some point to order tickets. People of all ages and with very different levels of computer skills.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight&#34;&gt;
+    &lt;h3 class=&#34;epsilon text--center&#34;&gt;Userbase: Everyone&lt;/h3&gt;
+    &lt;img src=&#34;/img/work/case/sj/asset_users.jpg&#34; class=&#34;work__image--fullsize&#34;&gt;
+
+    &lt;p&gt;
+        Eventually we had a prototype that we felt was a good start and that SJ felt was what they wanted as well. It was decided that it would be tested on the general public at an event on Stockholm&#39;s Central Station. Random people were invited to test the site, answering questions and being tasked to go about doing certain actions on the prototype. The feedback was collected and brought back to us, to do improvements on the prototype.
+    &lt;/p&gt;
+    &lt;p&gt;
+        After this, implementatioin at SJ&#39;s web department commenced. We were there, helping out for several weeks and the result was beta.sj.se; open to the general public and utilising a new (to us) tool from a company called Usabilla to, again, collect feedback from the users.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        SJ&#39;s new site is nowhere near finished. And the work goes on to make sj.se one of the standard setting sites for travel out there.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We&#39;re proud to have been part of the process, and we learned a lot of new things working with such a huge organisation as SJ. We&#39;re looking forward to seeing how the end result turns out.
+    &lt;/p&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Hobbit 2</title>
+      <link>http://agigen.se/work/thehobbit-a-journey/</link>
+      <pubDate>Mon, 04 Aug 2014 12:43:46 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/thehobbit-a-journey/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/hobbit/asset_topimg.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            An interactive exprience to showcase the new features of Google Chrome and the hilights of the new Hobbit movie.
+        &lt;/h2&gt;
+        &lt;a href=&#34;http://middle-earth.thehobbit.com/&#34; class=&#34;btn btn--large&#34; target=&#34;_blank&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--hobbit--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The site&lt;/strong&gt;&lt;br&gt;
+                Play cool Google Chrome WebGL mini-games in Middle-Earth!
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Explore Middle-Earth and get into the Tolkien-groove by exploring the different locations.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;Did someone say...&lt;/strong&gt;&lt;br&gt;
+                Dragons? Dragons. Dragons!!!
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--awards&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/awwwards.svg&#34; alt=&#34;Awwwards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Site of the Month &lt;br&gt;January 2014&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/awwwards.svg&#34; alt=&#34;Awwwards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Site of the Day &lt;br&gt;January 2014&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/fwa.svg&#34; alt=&#34;FWA&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        SotD, 2013&lt;br&gt;
+                        SotM, 2013
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/fwa.svg&#34; alt=&#34;FWA&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;Cutting Edge Project, 2013&lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        There are quite a few fantasy geeks at our office, and even those not particularly interested will still get their asses to the cinemas when there&#39;s a Tolkien film going up. Imagine our delight at being part of this interactive experience in Middle-Earth, once again partnering up with North Kingdom to create some magic.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;div class=&#34;container text--center&#34;&gt;
+    &lt;h3 class=&#34;epsilon&#34;&gt;Begin your journey&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;figure class=&#34;image-wrapper image-wrapper--strikethrough image-wrapper--hobbit&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;img src=&#34;/img/work/case/hobbit/asset_divider_screen.png&#34; class=&#34;image&#34;&gt;
+    &lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;section class=&#34;container container--tight work__section hard--bottom&#34;&gt;
+    &lt;h2&gt;Making everyone understand&lt;/h2&gt;
+    &lt;p&gt;
+        We didn&#39;t get to do any of the really cool stuff on this project; our efforts were more in the obscure though challenging nonetheless. The application was to be localized in 43 languages so we decided to create an entire tool solely for translations. It imports and exports json files connecting a key to an element in the HTML. There&#39;s also a section of the tool that handles assets; logos, images and films, since they also needed to be translated.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container work__section hard--bottom&#34;&gt;
+    &lt;h3 class=&#34;text--center epsilon&#34;&gt;Everything had to adapt&lt;/h3&gt;
+
+    &lt;div class=&#34;grid&#34;&gt;
+        &lt;div class=&#34;grid__item one-half&#34;&gt;
+            &lt;img src=&#34;/img/work/case/hobbit/asset_logo_1.png&#34; style=&#34;max-width: 90%; margin: 4% auto;&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-half&#34;&gt;
+            &lt;img src=&#34;/img/work/case/hobbit/asset_logo_2.png&#34; style=&#34;max-width: 90%; margin: 4% auto;&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-half&#34;&gt;
+            &lt;img src=&#34;/img/work/case/hobbit/asset_logo_3.png&#34; style=&#34;max-width: 90%; margin: 4% auto;&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-half&#34;&gt;
+            &lt;img src=&#34;/img/work/case/hobbit/asset_logo_4.png&#34; style=&#34;max-width: 90%; margin: 4% auto;&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;p&gt;
+        There is also a UI to edit the strings without the fuss of json-files, but as far as we know it was never used by Google (who were in charge of actually providing the translations). It turned out rather well and we have reused it in other applications too.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We were also in charge of setting upp the application&#39;s hosting on Google App Engine and managing staging versions and deploys.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section work-video=&#34;hobbit&#34; embed-youtube=&#34;BVvMGD8LNL0&#34; ng-cloak ng-click=&#34;play()&#34;&gt;
+    &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon&#34;&gt;Case video by Warner Bros&lt;/h3&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Watch &lt;span class=&#34;play-icon&#34;&gt;the&lt;/span&gt; video&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+&lt;section class=&#34;container work__section&#34;&gt;
+    &lt;h3 class=&#34;text--center epsilon&#34;&gt;The internationalization interface&lt;/h3&gt;
+
+    &lt;div class=&#34;grid&#34;&gt;
+        &lt;div class=&#34;grid__item one-half&#34;&gt;
+            &lt;img src=&#34;/img/work/case/hobbit/asset_lang_ui_1.jpg&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-half&#34;&gt;
+            &lt;img src=&#34;/img/work/case/hobbit/asset_lang_ui_2.jpg&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Further reading&lt;/h2&gt;
+    &lt;p&gt;
+        &lt;strong&gt;Case study at HTML5 Rocks:&lt;/strong&gt; &lt;a href=&#34;http://www.html5rocks.com/en/tutorials/casestudies/hobbit/&#34; target=&#34;_blank&#34;&gt;http://www.html5rocks.com/en/tutorials/casestudies/hobbit/&lt;/a&gt;&lt;br&gt;
+        &lt;strong&gt;Front end of Middle earth:&lt;/strong&gt; &lt;a href=&#34;http://www.html5rocks.com/en/tutorials/casestudies/hobbit-front-end/&#34; target=&#34;_blank&#34;&gt;http://www.html5rocks.com/en/tutorials/casestudies/hobbit-front-end/&lt;/a&gt; &lt;br&gt;
+    &lt;/p&gt;
+
+&lt;/section&gt;
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--hobbit--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Conclusion&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;
+                All in all we&#39;re proud to have been part of such a successful project.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Go&amp;Get</title>
+      <link>http://agigen.se/work/mcdonalds-go-and-get/</link>
+      <pubDate>Mon, 04 Aug 2014 12:43:07 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/mcdonalds-go-and-get/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/mcdonalds/topbild-retina.png&#34; class=&#34;work__header-image work__header-image--mcdonalds&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            A giveaway campaign with a digital twist for McDonald&#39;s McWRAP.
+        &lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--mcdonalds--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Integrated&lt;/strong&gt;&lt;br&gt;
+                The whole campaign ran inside of the McDonalds app, and the server architecture was built on Google App Engine.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Grab that digital wrap! Bring it to your nearest McDonalds and trade it for a real McWrap.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;Our partners&lt;/strong&gt;&lt;br&gt;
+                We worked together with Apegroup and DDB Stockholm on the campaign.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section work__section--awards&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/guldmobilen.svg&#34; width=&#34;296&#34; height=&#34;140&#34; alt=&#34;Guldmobilen&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        &lt;a href=&#34;http://www.mobil.se/business/guldmobilen-2012-h-r-r-rets-alla-vinnare&#34; class=&#34;uppercase&#34;&gt;
+                            Best mobile marketing 2012
+                        &lt;/a&gt;
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section container container--tight&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        When McDonalds released their new McWrap, the first non-campaign product at McDonalds for a looong time, we got to work with Apegroup and DDB on the campaign. The tagline for the campaign was &#34;Too good to put down&#34; and the app revolved around that concept. The user had to keep a finger pointed at the screen while getting to the closest McDonalds, to upon arrival be rewarded with a free McWrap.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section work-video=&#34;mcdonalds&#34; embed-youtube=&#34;5Dm9Uoro0OQ&#34; ng-cloak ng-click=&#34;play()&#34;&gt;
+    &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon&#34;&gt;Hitta en McWrap&lt;/h3&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Watch &lt;span class=&#34;play-icon&#34;&gt;the&lt;/span&gt; video&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;What we have done&lt;/h2&gt;
+    &lt;p&gt;
+        We created the backend API that the iPhone and Android app communicated with, as well as the administrative interface for McDonald&#39;s where they could schedule drops of wraps, and follow the activity in real time. The system also communicated with McDonalds API which stored all data about their shops, coordinates and such.
+    &lt;/p&gt;
+    &lt;p&gt;
+        The system was built upon the Google App Engine infrastructure to handle all the scaling challenges with such a high profile brand as McDonalds.
+    &lt;/p&gt;
+    &lt;p&gt;The system also exposed some metrics, for example how many wraps that were close to a specific store, that were shown to the customers on the stores&#39; displays.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section hard--top&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div class=&#34;two-thirds lap-one-half desk-one-third&#34; carousel=&#34;/img/work/case/mcdonalds/screenshot1.jpg,/img/work/case/mcdonalds/screenshot2.jpg,/img/work/case/mcdonalds/screenshot3.jpg,/img/work/case/mcdonalds/screenshot4.jpg&#34; screen-type=&#34;mobile&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section hard--top&#34;&gt;
+    &lt;h2&gt;International adaptions&lt;/h2&gt;
+    &lt;p&gt;
+        After the success with Go&amp;Get for McWrap in Sweden an international release wasn&#39;t far behind. The same concept was used in Norway but with free coffee instead of wraps.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--mcdonalds--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Trivia&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;
+                McDonald&#39;s sells more than 75 hamburgers every second
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Where&#39;s the Party</title>
+      <link>http://agigen.se/work/carlsberg-where-is-the-party/</link>
+      <pubDate>Mon, 04 Aug 2014 12:42:46 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/carlsberg-where-is-the-party/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/carlsberg/top-macbook.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            Where&#39;s the party by Carlsberg is an interactive music video for Axwell, made to promote the yearly event Where&#39;s the party.
+        &lt;/h2&gt;
+        &lt;a href=&#34;https://www.buildwithchrome.com&#34; class=&#34;btn btn--large&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--carlsberg--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Interactive music&lt;/strong&gt;&lt;br&gt;
+                Depending on how you follow the beat, the music will progress or fade out.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Partners&lt;/strong&gt;&lt;br&gt;
+                Music by Axwell, concept &amp; design by North Kingdom, production by us, sound design by Dinahmoe.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Follow the beat to find out when and where that party is.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- &lt;section class=&#34;container work__section&#34;&gt;
+  &lt;iframe width=&#34;1280&#34; height=&#34;720&#34; src=&#34;//www.youtube.com/embed/lTsyVNlzc7I&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt; --&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+      Carlsberg annually hosts a rather large party. Summer 2013 they drafted Axwell to perform and wanted to create some hype both for the party and Axwell&#39;s new single Center of the universe.
+    &lt;/p&gt;
+    &lt;p&gt;
+      North Kingdom once again got their creative geniouses going and proposed an interactive video in which the user could find clues to the wherabouts of the party by following the beat. Carlsberg also wanted to hand out merch, making following the beat a sort of competition as well.
+    &lt;/p&gt;
+    &lt;p&gt;
+      Initially, we were just doing backend for the competition, but as time ran short for the NK developers, we also got to do the frontend parts of the competition. We&#39;ve never had so many flow charts on the walls of the office! How hard can it be to hand out merch?? With somewhere between 10-20 countries, each with different merch and different rules it caused some severe headaches.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section work-video=&#34;carlsberg&#34; embed-youtube=&#34;8jCB52k7-_c&#34; ng-cloak ng-click=&#34;play()&#34;&gt;
+    &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+        &lt;h3 class=&#34;epsilon&#34;&gt;Axwell - Center of the universe&lt;/h3&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Watch &lt;span class=&#34;play-icon&#34;&gt;the&lt;/span&gt; video&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;What we have done&lt;/h2&gt;
+    &lt;p&gt;
+        The merch was to be distributed randomly; certain times were picked and whoever completed the beat closest after such a time had passed won a piece of merchandise. It was an external party that created the huge file with all the timestamps, we just did the import. Which was difficult enough to get correct, since we had some miscommunications about the ID:s of the different types of merch. Then proceeded checks to verify that there was a timestamp available, that the user had indeed followed the beat correctly and so on. All done in python.
+    &lt;/p&gt;
+    &lt;p&gt;
+        On the frontend side of things, there were different flows depending on what country you had selected as yours, but other than that it was pretty straight forward HTML and CSS.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section hard--top&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/carlsberg/screenshot1.jpg,/img/work/case/carlsberg/screenshot2.jpg,/img/work/case/carlsberg/screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34; style=&#34;padding-top:0;&#34;&gt;
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        There was a party. Axwell was there. However, we ourselves look back on this project as one of the tougher ones of 2013; it taught us how important it is to structure code and work load with clear guide lines as to how to do something and who&#39;s supposed to do it. We&#39;re happy to say we&#39;ve improved immensely in these regards.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--carlsberg--trivia&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Trivia&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;10,000 tickets sold to the main party event in Stockholm – the largest crowd ever for Where’s the Party&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Samsung</title>
+      <link>http://agigen.se/work/samsung-youneedtoseethis/</link>
+      <pubDate>Mon, 04 Aug 2014 12:06:09 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/samsung-youneedtoseethis/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/samsung/tabs.png&#34; class=&#34;work__header-image work__header-image--samsung&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;TL;DR&lt;/h3&gt;
+        &lt;h2&gt;
+            We built a web based gigapixel photo viewer to showcase the great screen of the new Samsung Tab S.
+        &lt;/h2&gt;
+        &lt;a href=&#34;https://www.youneedtoseethisapp.com&#34; class=&#34;btn btn--large&#34; target=&#34;_blank&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--samsung--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Best on Samsung, Made for all&lt;/strong&gt;&lt;br&gt;
+                The game is centered about the Samsung Tab S but works on all newer devices.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Zoom, pan and interact with the gigalpixel photograph and find all the details to compete for a spot on the high score.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;Partners&lt;/strong&gt;&lt;br&gt;
+                We teamed up with our friends over at Wenderfalck for this one.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        Early summer 2014 we got a call from our relatively new partner Wenderfalck asking us if we wanted to collaborate on a project for Samsung. We said yes (of course) and together we created this technically challenging application to promote the new tablet Tab S.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;figure class=&#34;image-wrapper image-wrapper--strikethrough image-wrapper--samsung-city&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;img src=&#34;/img/work/case/samsung/asset_tab_ui.png&#34; class=&#34;image&#34; width=&#34;580&#34; height=&#34;400&#34;&gt;
+    &lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+
+    &lt;h2&gt;What we&#39;ve done&lt;/h2&gt;
+    &lt;p&gt;
+        The application is a game where the player is presented with a gigapixel photograph in which they can pan and zoom in a &#34;google mapsy&#34; kind of way. The player is then presented with a hundred items (one at a time) located somewhere in the picture, and the goal is to find them all in the shortest time possible. If an item is particularly hard and the user doesn&#39;t find it within 90 seconds, the user has an option to display a hint as to what area the item is in. At any time the user can enter their name to the high score, and their result is updated as they find more items.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container&#34;&gt;
+    &lt;div class=&#34;grid text--center uppercase&#34;&gt;
+        &lt;div class=&#34;grid__item one-quarter palm-one-half&#34;&gt;
+            &lt;img class=&#34;work__section__tech-img&#34; src=&#34;/img/work/case/shared/logo_python.png&#34; alt=&#34;Python&#34;&gt;
+            &lt;strong class=&#34;palm-hidden&#34;&gt;Python&lt;/strong&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-quarter palm-one-half&#34;&gt;
+            &lt;img class=&#34;work__section__tech-img&#34; src=&#34;/img/work/case/shared/logo_html5.png&#34; alt=&#34;HTML&#34;&gt;
+            &lt;strong class=&#34;palm-hidden&#34;&gt;HTML&lt;/strong&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-quarter palm-one-half&#34;&gt;
+            &lt;img class=&#34;work__section__tech-img&#34; src=&#34;/img/work/case/shared/logo_sass.png&#34; alt=&#34;SCSS&#34;&gt;
+            &lt;strong class=&#34;palm-hidden&#34;&gt;SCSS&lt;/strong&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-quarter palm-one-half&#34;&gt;
+            &lt;img class=&#34;work__section__tech-img&#34; src=&#34;/img/work/case/shared/logo_javascript.jpg&#34; alt=&#34;Javascript&#34;&gt;
+            &lt;strong class=&#34;palm-hidden&#34;&gt;Javascript&lt;/strong&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;p&gt;
+        We did the whole technical solution using python, HTML, scss and of course a whole lot of javascript. We chose the angular framework and also took advantage of inuit.css. We had to rack our brains for all our combined image managing knowledge; each photograph in the application had a file size of several gigs; the largest around 15, making them impossible to save in any normal file format. We needed to tile the pictures at several different zoom levels for use in the application, so we manually had to divide them into pieces small enough to save as JPGs, and then run scripts on those files to divide them into tiles of 512x512px. It took a lot of time running those scripts!
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;figure class=&#34;image-wrapper image-wrapper--strikethrough image-wrapper--samsung&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;img src=&#34;/img/work/case/samsung/asset_tabs.png&#34; class=&#34;image&#34;&gt;
+    &lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        Client happy; we&#39;re happy. We&#39;re actually rather impressed with ourselves for creating something that works so well in just a few short weeks. So impressed and content with the result that we&#39;ve put our image solution (tiling, zooming, panning, etc) up on our GitHub for all you guys out there who don&#39;t want to do this from scratch. We hope it&#39;ll be of some use!&lt;br&gt;
+        &lt;br&gt;
+        &lt;a href=&#34;https://github.com/Agigen/Tiled-Image-Viewer&#34; class=&#34;btn flush&#34; style=&#34;border-color: #333;&#34; target=&#34;_blank&#34;&gt;Tiled Image Viewer @ Github&lt;/a&gt;
+    &lt;/p&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Build with Chrome</title>
+      <link>http://agigen.se/work/build-with-chrome/</link>
+      <pubDate>Sat, 02 Aug 2014 16:15:51 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/build-with-chrome/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/build/screen.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            Build with Chrome is an interactive WebGL experience to showcase the features of Google Chrome and promote the feature film LEGO the Movie.
+        &lt;/h2&gt;
+        &lt;a href=&#34;https://www.buildwithchrome.com&#34; class=&#34;btn btn--large&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--three-points work__section--build--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;WebGL&lt;/strong&gt;&lt;br&gt;
+                A 3D web experience for Google, LEGO and Warner Brothers.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;Partners&lt;/strong&gt;&lt;br&gt;
+                Concept by North Kingdom, production by us, 3D by We are licious.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;The mission&lt;/strong&gt;&lt;br&gt;
+                Build whatever you want with LEGO, wherever you want in the world.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__section--awards&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/awwwards.svg&#34; alt=&#34;Awwwards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Site of the Day&lt;br&gt;
+                        2012 &amp;amp; 2014
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/fwa.svg&#34; alt=&#34;FWA&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Site of the Day&lt;br&gt;
+                        2012 &amp;amp; 2014
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/clio.svg&#34; alt=&#34;Clio Awards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Silver 2013&lt;br&gt;
+                        Microsite/&amp;shy;Website
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/fwa.svg&#34; alt=&#34;FWA&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Site of the Month &lt;br&gt;2012
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/awwwards.svg&#34; alt=&#34;Awwwards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Site of the Month&lt;br&gt;2012 &amp;amp; 2014&lt;br&gt;
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/awwwards.svg&#34; alt=&#34;Awwwards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Honorable Mention &lt;br&gt;2014
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/fwa.svg&#34; alt=&#34;FWA&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Site of the Month &lt;br&gt;2014
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item palm-one-half one-quarter&#34;&gt;
+                &lt;figure class=&#34;image-text-switcher&#34;&gt;
+                    &lt;img src=&#34;/img/awards/clio.svg&#34; alt=&#34;Clio Awards&#34; class=&#34;image-text-switcher__image&#34;&gt;
+                    &lt;figcaption class=&#34;image-text-switcher__caption&#34;&gt;
+                        Bronze 2013&lt;br&gt;User Experience
+                    &lt;/figcaption&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!--
+GUNN REPORT
+4th Most Awarded Digital Campaign in the World 2013
+
+D&amp;AD
+FINALIST – Campaign Sites (2013)
+
+CANNES LIONS
+FINALIST – Cyber: Commercial Public Services (2013)
+FINALIST – Cyber: User Experience (2013)
+
+ONE SHOW
+GOLD – Websites / Services (2013)
+SILVER – Integrated Branding Campaign (2013)
+MERIT – Websites / Branded Games (2013)
+MERIT – User Experience Design / Interaction Design (2013)
+
+CLIO
+SILVER – Digital/Mobile: Microsite/Website (2013)
+BRONZE – Digital Technique: User Experience (2013)
+
+WEBBY AWARDS
+PEOPLE’S CHOICE – Interactive Advertising: Best Use of Online Media (2013)
+NOMINEE – Websites: Best Visual Design - Function (2013)
+NOMINEE – Interactive Advertising &amp; Media: Online Campaigns (2013)
+
+JOHN CAPLES INTERNATIONAL AWARDS
+GOLD – Campaign Microsite (2012)
+SILVER – Interactive Campaign (2012)
+FINALIST – Creative use of Technology (2012)
+
+SPIKES ASIA
+SILVER – Digital: Websites Consumer Services (2013)
+SILVER – Direct: Best use of Digital Media (2013)
+BRONZE – Direct: Consumer Services (2013)
+
+ADMA
+DAVID OGILVY CREATIVE PINNACLE AWARD (2012)
+GOLD – Direct Response Digital (2012)
+GOLD – Art Direction (2012)
+SILVER – Creative use of Technology (2012)
+SILVER – Apps &amp; New Development (2012)
+BRONZE – Website/Microsite (2012)
+
+B&amp;T Magazine
+BEST DIGITAL CAMPAIGN OF 2012
+
+AD News
+BEST DIGITAL CAMPAIGN OF 2012
+
+AWARD
+SILVER – Digital Direct Response (2012)
+SILVER – Website (2012)
+SILVER – Apps (2012)
+BRONZE – Best Use of Media (2012)
+
+CSS AWARDS
+SITE OF THE DAY (2012)
+
+FWA
+SITE OF THE DAY (2012)
+
+IAB CREATIVE SHOWCASE
+WINNER (May 2012)
+--&gt;
+
+
+&lt;section class=&#34;container container--tight work__section hard--bottom&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+
+    &lt;p&gt;
+        By now, Build with Chrome is one our longest running projects. It started in early 2012 when LEGO celebrated 50 years in the land down under, and our partners in crime over at North Kingdom tasked us with making Australia into LEGO-bricks. Said and done, in June that same year, (mainly) Aussies started littering their continent with fantastic LEGO creations and it was a pretty sweet feeling watching the intricate buildings and crazy creatures.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        A year later it was go again; BWC was going global, the experience was getting a few new features and the designs were updated. Once again we worked closely with North Kingdom who came up with a concept of a game mode, where the goal was to become a Master Builder. BWC v2 was released as promotion both for the WebGL capacities in Google Chrome as well as the new LEGO the Movie feature film.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/build/nexus7-retina.jpg&#34; class=&#34;work__image--fullsize&#34;&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section hard--top&#34;&gt;
+    &lt;h2&gt;Multiple modes&lt;/h2&gt;
+    &lt;p&gt;
+        Today, Build with Chrome is now open for the entire world to explore on top of Google Maps, and it’s even accessible on all WebGL enabled phones, tablets, and computers that allows anyone the opportunity to build something awesome.
+    &lt;/p&gt;
+    &lt;p&gt;
+        The application is loosely divided into four different sections: Build mode, Explore mode, Academy mode and CMS for the LEGO people to keep an eye on all of the creations.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section work__divider work__section--build--explore&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container container--tight text--light text--center&#34;&gt;
+            &lt;p class=&#34;work__divider__pretitle&#34;&gt;Explore all builds&lt;/p&gt;
+            &lt;div class=&#34;work__divider__title&#34;&gt;Explore mode&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;p&gt;
+            Entering the Explore mode the user is shown a view of their current geographic location, populated with markers to indicate where people have built their LEGO-structures. Using a zoom control, the user can zoom in on any geographic spot to view the creations in WebGL 3D. We used Google Maps&#39; API to present the world, where each tile of from the API equaled one baseplate - the unit each user is given upon entering Build mode. Users can either specifically select a base plate in 3D mode, or get one randomly assigned based on their geographical location. We did HTML-templates, javascript, CSS and API integrations.
+        &lt;/p&gt;
+
+        &lt;p&gt;
+            The application uses Google+ authentication so users who sign in can view builds created by people in their circles and revisit builds they&#39;ve liked using the +1 feature.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section hard--top&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/build/screenshot1.jpg,/img/work/case/build/screenshot2.jpg,/img/work/case/build/screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section work__divider work__section--build--green&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;p class=&#34;work__divider__pretitle&#34;&gt;Build something awesome&lt;/p&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Build mode&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section container container--tight hard--bottom&#34;&gt;
+    &lt;p&gt;
+        In Build mode the user is presented with their chosen baseplate on which they are free to create whatever they want with a bunch of LEGO-bricks in different shapes and colours. We were responsible for the UI; rotating bricks, changing colour and brick types, saving and publishing. We worked closely with programmers at NK who did the actual WebGL code, while we created HTML-templates, CSS and AJAX API calls to save people&#39;s builds.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/build/build-nexus7-retina.jpg&#34; class=&#34;work__image--fullsize&#34;&gt;
+&lt;/div&gt;
+
+
+&lt;section class=&#34;work__section work__divider work__section--build--red&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;p class=&#34;work__divider__pretitle&#34;&gt;Become a master builder&lt;/p&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;Academy mode&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section container container--tight hard--bottom&#34;&gt;
+    &lt;p&gt;
+        Academy consists of a series of challenges of increasing difficulty. This is where you train to become a Master Builder!
+        Starting with the basics, you&#39;ll face a series of building challenges in different locations. Before you know it you&#39;ll be building complex magical worlds of your own.
+        The user is to follow a set of instructions (much as in building with regular LEGO), learning a number of different building techniques, eventually gaining the title of Master builder.
+    &lt;/p&gt;
+&lt;/section&gt;
+&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/build/academy-nexus5-retina.jpg&#34; class=&#34;work__image--fullsize&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__section work__divider work__section--build--black&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;p class=&#34;work__divider__pretitle&#34;&gt;Keeping up with the swastikas&lt;/p&gt;
+        &lt;div class=&#34;work__divider__title&#34;&gt;CMS for moderators&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+
+&lt;section class=&#34;work__section container container--tight&#34;&gt;
+    &lt;h2&gt;CMS&lt;/h2&gt;
+    &lt;p&gt;
+        LEGO needed to be able to remove inappropriate content, which is why we created a flagging system accessible from Explore mode. In the CMS the moderators can review all builds created, and work through the ones that have been flagged by users of the application. There is also some statistics and a section to translate the whole application to an unlimited number of languages (currently the application is available in 27 languages).
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section hard--top hard--bottom&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/build/cms-screenshot1.jpg,/img/work/case/build/cms-screenshot2.jpg,/img/work/case/build/cms-screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section container container--tight hard--bottom&#34;&gt;
+    &lt;h2&gt;Build with Chrome at Google I/O 2014&lt;/h2&gt;
+    &lt;p&gt;For Google I/O 2014 the Build world got physical in a monter at the exhibition area. Some poor bastard spent a day building the booth with loads of LEGO bricks. We were not that poor bastard. However we did use WebRTC to create a versus mode out of academy. Two Chromebook Pixels at the booth presented the users with a challenge where you competed against your friend (or total random stranger) to see who could complete the instruction steps the fastest. It was, of course, in real time and it was also simultaneously displayed on a huge LED-screen so that all the people around could watch the contestants battle it out. It was a really cool project, we just wish we too could have gone over to the US to enjoy it IRL.&lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container container--tight text--center&#34;&gt;
+    &lt;img src=&#34;/img/work/case/build/legobricks.jpg&#34; width=&#34;60%&#34;&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;work__section container container--tight hard--top&#34;&gt;
+    &lt;h2&gt;Conclusion&lt;/h2&gt;
+    &lt;p&gt;This project cannot be called anything other than a success; at the time of writing there are 678 394 different builds in the Build with Chrome world and the site has had literally millions of visitors. We learned lots.&lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--build--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;The grand finale&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;We all went to the cinemas and watched LEGO the Movie. &lt;br class=&#34;palm-hidden&#34;&gt;It was&amp;nbsp;awesome&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ericsson City Index</title>
+      <link>http://agigen.se/work/ericsson-city-index/</link>
+      <pubDate>Sat, 02 Aug 2014 16:15:51 CEST</pubDate>
+      
+      <guid>http://agigen.se/work/ericsson-city-index/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;
+    &lt;img src=&#34;/img/work/case/ericsson/asset_headerlaptop.png&#34; class=&#34;work__header-image&#34;&gt;
+&lt;/div&gt;
+
+&lt;section class=&#34;work__tldr&#34;&gt;
+    &lt;div class=&#34;container container--tight&#34;&gt;
+        &lt;h3 class=&#34;work__tldr__pretitle&#34;&gt;What it is&lt;/h3&gt;
+        &lt;h2&gt;
+            This interactive tool lets you review metrics to determine how your city fares compared to other cities all over the world.
+        &lt;/h2&gt;
+        &lt;a href=&#34;http://ericsson.com/city-index&#34; class=&#34;btn btn--large&#34;&gt;Launch site&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;work__section work__section--three-points work__section--ericsson--three-points&#34;&gt;
+    &lt;div class=&#34;container&#34;&gt;
+
+        &lt;div class=&#34;grid&#34;&gt;
+            &lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;The Index&lt;/strong&gt;&lt;br&gt;
+                Ericsson have measured a whole lot of different factors pertaining to IT and welfare to see how the two relate to each other.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third&#34;&gt;
+                &lt;strong&gt;What we did&lt;/strong&gt;&lt;br&gt;
+                We updated their tool to make it modern and more interactive, easier to understand and give a better explanation of the index.
+            &lt;/div&gt;&lt;!--
+            --&gt;&lt;div class=&#34;grid__item lap-and-up-one-third hard--bottom&#34;&gt;
+                &lt;strong&gt;The result&lt;/strong&gt;&lt;br&gt;
+                Lots of charts, graphs and pretty colours help you get into the nitty gritty numbers and understand how IT and welfare go together.
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Background&lt;/h2&gt;
+    &lt;p&gt;
+        Ericsson was looking to renew their City Index tool. They&#39;ve gathered loads of metrics from about 30 cities around the world and these numbers show how IT-infrastructure relates to other aspects of society such as literacy rate, health and environmental pollution.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Their old site was built on flash, complete with funny noises and animations on hover. The old site was also only marginally interactive, basically just displaying the different scores. Needless to say, it needed some pimpin&#39;.&lt;br&gt;
+        DDB was tasked with said assignment and they wanted to work with us. Being mainly business to business (or at least business to governments) it wasn&#39;t the most exciting project we&#39;ve ever taken on, but it presented some challenges and we got to try out some new frameworks for real.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container&#34;&gt;
+    &lt;h3 class=&#34;epsilon text--center&#34;&gt;Examples of charts&lt;/h3&gt;
+    &lt;div class=&#34;grid&#34;&gt;
+        &lt;div class=&#34;grid__item one-third&#34;&gt;
+            &lt;img src=&#34;/img/work/case/ericsson/asset_ui_1.jpg&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-third&#34;&gt;
+            &lt;img src=&#34;/img/work/case/ericsson/asset_ui_2.jpg&#34;&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;grid__item one-third&#34;&gt;
+            &lt;img src=&#34;/img/work/case/ericsson/asset_ui_3.jpg&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Easy to grasp&lt;/h2&gt;
+    &lt;p&gt;
+        DDB had a lot of features planned for the new site. It started off with a Google Maps populated with a marker for each city that was part of the index. Each city have their own page, where the user can study the different values that city has scored. There are also case studies related to the city.
+    &lt;/p&gt;
+&lt;/section&gt;
+&lt;section class=&#34;container container--tight work__section hard--top&#34;&gt;
+    &lt;img src=&#34;/img/work/case/ericsson/asset_casescreens.jpg&#34;&gt;
+&lt;/section&gt;
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+
+    &lt;p&gt;
+        The customer wanted an easy to understand comparison view. In the end, we did two: One grid view, where two measurements are displayed on the X- and Y-axis respectively and the cities are marked by dots in the grid. And one with columns in which the values for each measurement could be altered to see how the ranking was affected in real time.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section class=&#34;section hard--top hard--bottom&#34;&gt;
+    &lt;div class=&#34;container container--tight text--center&#34;&gt;
+        &lt;div carousel=&#34;/img/work/case/ericsson/screenshot1.jpg,/img/work/case/ericsson/screenshot2.jpg,/img/work/case/ericsson/screenshot3.jpg&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;container container--tight work__section hard--bottom&#34;&gt;
+    &lt;p class=&#34;text--center&#34;&gt;
+        &lt;img src=&#34;/img/work/case/ericsson/asset_emberjs.png&#34; style=&#34;display: inline-block; width: 100px; margin: 10px;&#34;&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+
+        We couldn&#39;t find a suitable lib to help us with the grid view, so in the end we did it from scratch. Ember.js helped us with updating the city models in the column view, but in hindsight it was a bit too much hassle using that particular framework, despite the kind of cute hamster.
+    &lt;/p&gt;
+&lt;/section&gt;
+&lt;section class=&#34;container container--tight work__section&#34;&gt;
+    &lt;h2&gt;Afterwards&lt;/h2&gt;
+    &lt;p&gt;
+        The tool was presented internally at Ericsson at an event in Dallas and everyone was pretty pleased. Today we&#39;ve just gotten charged with the rest of the Ericsson website, as DDB was that happy working with us.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;section class=&#34;section section--center-content work__section work__section--grandfinale work__section--ericsson--grandfinale&#34;&gt;
+    &lt;div class=&#34;section__content&#34;&gt;
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;h3 class=&#34;work__section--grandfinale__header&#34;&gt;Coincidence?&lt;/h3&gt;
+            &lt;div class=&#34;work__section--grandfinale__copy&#34;&gt;Stockholm is the highest ranked city in the Networked Society&amp;nbsp;City&amp;nbsp;Index&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
