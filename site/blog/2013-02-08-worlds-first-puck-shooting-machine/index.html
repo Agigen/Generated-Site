@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible2}"
+  scroll-spy
+  ng-keyup="menuKeyup($event)"
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    World&#39;s first web-based puck shooting machine
+    
+    &middot; Agigen
+    
+  </title>
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser--ie';
+    }
+
+    if (/ip(ad|hone|od)/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' device--ios';
+    }
+
+    if (/firefox/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' browser--firefox';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css?v=1">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="fb:admins" content="562883652,1205209891">
+<meta property="og:site_name" content="Agigen.se">
+<meta name="twitter:site" content="@agigen">
+<meta name="twitter:creator" content="@lendai">
+<meta property="og:url" content="http://agigen.se/blog/2013-02-08-worlds-first-puck-shooting-machine/">
+
+
+
+
+
+    
+    <meta itemprop="name" content="Agigen - We make the web a better place">
+    <meta property="og:title" content="Agigen - We make the web a better place">
+    <meta name="twitter:title" content="Agigen - We make the web a better place">
+
+
+
+    
+        
+        <meta itemprop="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta property="og:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="twitter:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+    
+
+
+
+    
+    <meta itemprop="image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta property="og:image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta name="twitter:image" content="http://agigen.se/img/utils/summary_card_twitter.jpg">
+
+
+
+
+
+
+
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//agigen-slack-chat.appspot.com">
+
+  <script type="text/javascript" charset="utf-8">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7546376-1']);
+      _gaq.push(['_trackPageview']);
+  </script>
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--worlds-first-web-based-puck-shooting-machine
+
+  page--page
+  page--blog
+  page--blog--worlds-first-web-based-puck-shooting-machine
+
+">
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible, 'main-menu--visible-content': menuVisible2}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Case studies </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar-wrapper">
+    <div class="topbar" ng-class="{'menu-expanded': menuVisible}" ng-style="{ 'padding-right': topbarCompensation }">
+        <div class="container cf">
+            <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+                <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+
+            </a></h1>
+    
+
+
+            <button class="topbar__menu-button" ng-click="toggleMenu()" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+                <div class="topbar__menu-button__inner"></div>
+                <span class="accessibility">Menu</span>
+
+            </button>
+
+
+        </div>
+    </div>
+</div>
+
+
+<header class="main-header blog-post__header
+
+    blog-post__header--category--backstage
+">
+    <div class="main-header__content">
+        <div class="container text--light">
+            <h1 class="main-header__title--blog text-wrapper">World&#39;s first web-based puck shooting machine</h1>
+            <p>
+                Posted Fri, Feb 8, 2013 in  Backstage 
+            </p>
+        </div>
+    </div>
+</header>
+<div class="main-content">
+
+
+
+
+<div class="content container">
+    
+
+    <article class="blog-post">
+        <p>For the Oddset Hockey Games, in cooperation with The Viral Company, Paramecanic and Svenska Spel we built a web application to remote control a machine that shoots hockey pucks at a live goalkeeper.</p>
+
+<p><img title="head" alt="" src="/img/blog/posts/2013/02/head.jpg" /></p>
+
+<p>For this campaign, the puck shooting machine resides in a booth at the Oddset Hockey Games, together with a goal and a human goalkeeper. Users can come up to the booth and direct the machine from an iPad, or they can queue up on the web site and wait for their turn to control the machine over the internet. On the web site, users can spectate the shots from thee different angles using three live camera feeds. One user at a time controls the machine; users on location at the booth have a higher queue priority than users on the internet. Each user gets three shots; if they hit the last shot they can continue shooting as long as they hit.</p>
+
+<p><img title="pic1" alt="" src="/img/blog/posts/2013/02/pic1.jpg" /></p>
+
+<p>To control the machine, we use an embedded Arduino board connected to an on-site server via USB. The on-site server runs a Python/Tornado web server which listens to requests from the web application backend, which is hosted on Google App Engine. The on-site server also handles the cameras; the spectator live feeds are sent directly to <a href="http://www.ustream.tv">UStream</a>, while a separate camera feed for the currently playing user is handled by a <a href="http://www.wowza.com/">Wowza</a> server (this stream is separate for latency reasons).</p>
+
+<p><img title="pic2" alt="" src="/img/blog/posts/2013/02/pic2.jpg" /></p>
+
+<p>Since everything is &#8220;live&#8221;, the application makes extensive use of server-to-client pushes using Google App Engine&#8217;s Channel API. This avoids a large amount of traditional polling. When the frontend JavaScript triggers a &#8220;fire&#8221; AJAX request, the backend passes the firing direction to the on-site server, which in turn passes it on to the Arduino, which controls the machine. Meanwhile, the backend also sends a WebSocket push event to all admins currently viewing administration interface, which gives them the choice to flag the shot as a goal or a miss. As soon as the shot status is set, the currently playing user gets a push notification that tells the frontend JavaScript to let them proceed to their next shot.</p>
+
+<p><img title="pic3" alt="" src="/img/blog/posts/2013/02/pic3.jpg" /></p>
+
+<p>To maneuver the puck shooting machine, the Arduino uses a pair of electrically powered hydraulic jacks. Since these don&#8217;t support reporting their current position, the far ends of the travel range are bounded by limit switches. To figure out where the machine is aiming, the Arduino is first calibrated by running the machine to the far ends of the travel range and measuring how long time that takes, and then it simply has to keep track of how long it runs the hydraulics in order to figure out where it&#8217;s aiming.</p>
+
+<p>The complexity in this application primarily stems from its many layers: the frontend javascript talks to UStream, to the Wowza server and to the App Engine backend. The App Engine backend in turn talks to the on-site server, which talks to the Arduino, which talks to the puck shooting machine. We could have let the frontend JS talk directly to the on-site server, but then we&#8217;d have to do user authentication etc there, so we decided to route the firing controls via the App Engine backend.</p>
+
+<p>A secondary source of complexity are the latency issues: unsurprisingly it turned out that sending a fire control request from the frontend to the puck machine took a lot less time than it took a live camera feed to pass through UStream&#8217;s CDN back to the frontend. Thus we had a problem where the on-site booth attendant could see a shot being fired and flag it as a goal, which would bring up a &#8220;congratulations!&#8221; notification in the user&#8217;s browser, followed several seconds later by the user actually seeing his shot hit in the camera feed. It was clearly necessary to reduce the latency of the camera feed, and the simplest way of doing that was to remove the &#8220;black box&#8221; of UStream&#8217;s CDN and take care of the stream ourselves. This involved editing very large amounts of XML (Wowza is a Java application, so what did you expect) and swearing a lot, but it ended up working well enough.</p>
+
+<p>This has been a really interesting project in several ways. It uses all sorts of technologies from the very highest to the very lowest level: you rarely get to work with embedded systems, servos and hydraulics as a web developer. The latency issues and live streaming stuff has also been a challenge.</p>
+
+<p><img title="pic4" alt="" src="/img/blog/posts/2013/02/pic4.jpg" /></p>
+
+    </article>
+</div>
+
+<footer class="blog-post__footer">
+    <div class="container container--tight">
+        <div class="grid">
+            <div class="grid__item one-half">
+                
+                    <a class="blog-post__nav blog-post__nav--prev" href="/blog/2013-03-01-big-blog-exchange-video/">
+                        <div class="epsilon">Newer post</div>
+                        <div class="blog-post__nav__imgwrapper">
+                            
+                                <img src="/img/blog/bbe_320.jpg" class="post__image">
+                            
+                        </div>
+                        <h5 class="blog-post__nav__meta">
+                            
+                                <span class="blog-post__nav__category--backstage">Backstage</span>
+                            
+                            Fri, Nov 30, 2012
+                        </h5>
+                        <h4 class="blog-post__nav__title">Big Blog Exchange video</h4>
+                    </a>
+                
+            </div><div class="grid__item one-half">
+                
+                    <a class="blog-post__nav blog-post__nav--next" href="/blog/2012-11-30-buick-encore-high-scalability-behind-the-great-firewall-of-china/">
+                        <div class="epsilon">Older post</div>
+                        <div class="blog-post__nav__imgwrapper">
+                            
+                                <img src="/img/blog/buickencore_320.jpg" class="post__image">
+                            
+                        </div>
+                        <h5 class="blog-post__nav__meta">
+                            
+                                <span class="blog-post__nav__category--backstage">Backstage</span>
+                            
+                            Fri, Nov 30, 2012
+                        </h5>
+                        <h4 class="blog-post__nav__title">Buick Encore: high scalability behind the Great Firewall of China</h4>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title hidden">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+
+        <nav class="main-footer__links main-footer__links--left">
+            <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link main-footer__link--facebook">
+                <span class="hidden">Facebook</span>
+                <img src="/img/icons/icon_fb.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://github.com/agigen" target="_blank" class="main-footer__link main-footer__link--github">
+                <span class="hidden">Github</span>
+                <img src="/img/icons/icon_github.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://dribbble.com/agigen" target="_blank" class="main-footer__link main-footer__link--dribble">
+                <span class="hidden">Dribbble</span>
+                <img src="/img/icons/icon_dribbble.svg" alt="" width="44" height="22">
+            </a>
+        </nav>
+
+        <nav class="main-footer__links main-footer__links--right">
+            <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact &amp; Map</a>
+        </nav>
+    </div>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular-touch.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js?v=1"></script>
+    </body>
+</html>
+

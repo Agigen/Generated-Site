@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible2}"
+  scroll-spy
+  ng-keyup="menuKeyup($event)"
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Product development
+    
+    &middot; Agigen
+    
+  </title>
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser--ie';
+    }
+
+    if (/ip(ad|hone|od)/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' device--ios';
+    }
+
+    if (/firefox/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' browser--firefox';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css?v=1">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="fb:admins" content="562883652,1205209891">
+<meta property="og:site_name" content="Agigen.se">
+<meta name="twitter:site" content="@agigen">
+<meta name="twitter:creator" content="@lendai">
+<meta property="og:url" content="http://agigen.se/services/product-development/">
+
+
+
+
+
+    
+    <meta itemprop="name" content="Agigen - We make the web a better place">
+    <meta property="og:title" content="Agigen - We make the web a better place">
+    <meta name="twitter:title" content="Agigen - We make the web a better place">
+
+
+
+    <meta itemprop="description" content="Kickstart your startup, or expand to new business areas together with Agigen.">
+    <meta name="description" content="Kickstart your startup, or expand to new business areas together with Agigen.">
+    <meta property="og:description" content="Kickstart your startup, or expand to new business areas together with Agigen.">
+    <meta name="twitter:description" content="Kickstart your startup, or expand to new business areas together with Agigen.">
+
+
+
+    
+    <meta itemprop="image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta property="og:image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta name="twitter:image" content="http://agigen.se/img/utils/summary_card_twitter.jpg">
+
+
+
+
+
+
+
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//agigen-slack-chat.appspot.com">
+
+  <script type="text/javascript" charset="utf-8">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7546376-1']);
+      _gaq.push(['_trackPageview']);
+  </script>
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--product-development
+
+  page--page
+  page--services
+  page--services--product-development
+
+">
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible, 'main-menu--visible-content': menuVisible2}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Case studies </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar-wrapper">
+    <div class="topbar" ng-class="{'menu-expanded': menuVisible}" ng-style="{ 'padding-right': topbarCompensation }">
+        <div class="container cf">
+            <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+                <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+
+            </a></h1>
+    
+
+
+            <button class="topbar__menu-button" ng-click="toggleMenu()" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+                <div class="topbar__menu-button__inner"></div>
+                <span class="accessibility">Menu</span>
+
+            </button>
+
+
+        </div>
+    </div>
+</div>
+
+<header class="main-header">
+    <div class="main-header__content">
+        <div class="container text--light">
+
+            
+
+            <h1 class="main-header__title">Product development</h1>
+
+            
+
+        </div>
+    </div>
+    
+        <video width="1440" height="700" autoplay="autoplay" loop="loop" class="main-header__video">
+            <source src="/video/pinkvideo.mp4"  type="video/mp4">
+        </video>
+    
+</header>
+
+<div class="main-content">
+
+
+<div class="content">
+    <section class="section section--proddev-definition">
+    <div class="section__content">
+        <div class="container container--tight text--center">
+            <h2 class="hidden">We love new ideas</h2>
+            <p class="gamma flush--bottom">
+                We've helped established companies and startups to develop their products from nothing to launch. We would love to help you too.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="section section--center-content section--proddev-howwework">
+    <div class="section__content">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item lap-and-up-one-half">
+
+                    <h2 class="section__title">Release early</h2>
+                    <p class="section__text">
+                       Usually when we're involved in a completly new product we aim to create a MvP - a <a href="http://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank">minimum viable product</a>.
+                       The MVP is a product that you can release to your customers and start testing if your product, business model and concept work on real people.
+                    </p>
+
+                </div><!--
+                --><div class="grid__item lap-and-up-one-half">
+                    <figure class="section--proddev-howwework__illustration-wrapper">
+                        <img src="/img/proddev/ipad.png" class="section--proddev-howwework__illustration">
+                        <div class="section--proddev-howwework__illustration__animation"></div>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section section--proddev-team">
+    <div class="container container--tight text--center palm-text--left">
+        <h2 class="section__title">A dedicated team</h2>
+        <p class="section__text">
+            Forget consultants that are just sitting around waiting for direction and who're just interested in invoicing. We offer you a tight team, dedicated to your idea and product during the project. We're open-minded and will help you make the best choices whether it's about the tech, the concept or the design.
+        </p>
+    </div>
+</section>
+
+<a class="case case--thin case--thin--billogram" href="/work/billogram/" title="Case study: Build with Chrome">
+    <div class="container">
+        <h1 class="case__title">Invoicing in the cloud</h1>
+        <p class="case__headline"><span class="palm-hidden">View case study – </span>Billogram</p>
+        <button class="desk-hidden btn">View case study</button>
+        <div class="case__image-wrapper"><img src="/img/proddev/billogram-browser-retina.png" class="case__image" width="320"></div>
+    </div>
+</a>
+
+
+<section class="section section--proddev-definition">
+    <div class="section__content">
+        <div class="container text--center">
+            <img src="/img/proddev/tools-retina.gif">
+
+
+            <h2 class="section__title">Our approach</h2>
+
+            <figure class="proddev-process animate--in-view">
+
+                <svg class="proddev-process__circle" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve" width="1024" height="512">
+                    <g id="circleopacity">
+                        <path class="path path--animated" fill="none" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+                            M499.7,87.6c5.5-0.3,11-0.4,16.5-0.4c170.3,0,308.4,138.1,308.4,308.4S686.5,704,516.1,704S207.7,566,207.7,395.6
+                            c0-57.3,15.7-111.1,42.9-156.9"/>
+                    </g>
+                    <g id="circle_1_" opacity="0.2">
+                        <path class="path path--faded" fill="none" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+                            M824.2,379.2c0.3,5.5,0.4,11,0.4,16.5C824.6,566,686.5,704,516.1,704S207.7,566,207.7,395.6S345.8,87.2,516.1,87.2
+                            c57.3,0,111.1,15.7,156.9,42.9"/>
+                    </g>
+                    <g id="proddev-process__points">
+                        <g class="proddev-process__point proddev-process__point--1">
+                            <circle fill="#FFFFFF" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="515.9" cy="86" r="26.8"/>
+                            <circle fill="#FF0066" cx="515.9" cy="86" r="13.4"/>
+                        </g>
+
+                        <g class="proddev-process__point proddev-process__point--2">
+                            <circle fill="#FFFFFF" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="784.8" cy="242.6" r="26.8"/>
+                            <circle fill="#FF0066" cx="784.8" cy="242.6" r="13.4"/>
+                        </g>
+
+                        <g class="proddev-process__point proddev-process__point--3">
+                            <circle fill="#FFFFFF" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="784.8" cy="542.3" r="26.8"/>
+                            <circle fill="#FF0066" cx="784.8" cy="542.3" r="13.4"/>
+                        </g>
+
+                        <g class="proddev-process__point proddev-process__point--4">
+                            <circle fill="#FFFFFF" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="515.9" cy="704.2" r="26.8"/>
+                            <circle fill="#FF0066" cx="515.9" cy="704.2" r="13.4"/>
+                        </g>
+
+                        <g class="proddev-process__point proddev-process__point--5">
+                            <circle fill="#FFFFFF" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="242.9" cy="542.3" r="26.8"/>
+                            <circle fill="#FF0066" cx="242.9" cy="542.3" r="13.4"/>
+                        </g>
+
+                        <g class="proddev-process__point proddev-process__point--6">
+                            <circle fill="#FFFFFF" stroke="#FF0066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="246.9" cy="237.2" r="26.8"/>
+                            <circle fill="#FF0066" cx="246.9" cy="237.2" r="13.4"/>
+                        </g>
+                    </g>
+                </svg>
+
+                <figcaption class="proddev-process__steps">
+                    <ol>
+                        <li class="proddev-process__step proddev-process__step--1 one-quarter">
+                            <strong>Goal</strong>
+                            What do we want to achive.
+                        </li>
+                        <li class="proddev-process__step proddev-process__step--2 one-quarter">
+                            <strong>The user</strong>
+                            Who will use it, how and why?
+                        </li>
+                        <li class="proddev-process__step proddev-process__step--3 one-quarter">
+                            <strong>Minimum Viable Product</strong>
+                            What do we need to do to test our hypothesis?
+                        </li>
+                        <li class="proddev-process__step proddev-process__step--4 one-quarter">
+                            <strong>Design &amp; Code</strong>
+                            Prototyping, sketching and development.
+                        </li>
+                        <li class="proddev-process__step proddev-process__step--5 one-quarter">
+                            <strong>Validation</strong>
+                            Did we reach our goal? What's the next step?
+                        </li>
+                        <li class="proddev-process__step proddev-process__step--6 one-quarter">
+                            <strong>Evaluate &amp; <br class="lap-breaker">Reiterate</strong>
+                            Start again, and improve what we've accomplished.
+                        </li>
+                    </ol>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section section--contact section--proddev-contact">
+    <div class="section__content">
+        <div class="container text--center">
+            <h2 class="section--contact__content">We have helped both startups and established businesses. We’d love to help you too!</h2>
+            <a href="/contact/" class="btn">Get in touch</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="section section--proddev-case section--proddev-case--billogram">
+        <div class="container portable-text--center">
+
+            <div class="grid grid--vertically-centered">
+                <div class="grid__item desk-one-half">
+
+                    <h3 class="section--proddev-case__subtitle">Invoicing in the Cloud</h3>
+                    <h2 class="section--proddev-case__title">Billogram</h2>
+
+                    <p class="section--proddev-case__text portable-text-wrapper">Billogram is a company that helps small to medium businesses get paid. We helped Billogram on their journey from a humble idea to a great company.</p>
+
+                    <a class="btn flush--left" href="/work/billogram"><span class="palm-hidden">View </span>case study</a>
+                    <a class="btn" href="https://billogram.com">Visit website</a>
+
+                </div><!--
+                --><div class="grid__item desk-one-half text--right portable-text--center">
+                    <img src="/img/proddev/case-billogram.png" class="section--proddev-case__illustration section--proddev-case__illustration--from-right section--proddev-case--billogram__illustration animate--in-view">
+                </div>
+            </div><!-- .grid -->
+
+        </div><!-- .container -->
+</section>
+
+<section class="section section--proddev-case section--proddev-case--yogobe">
+        <div class="container portable-text--center">
+            <div class="grid grid--rev grid--vertically-centered">
+                <div class="grid__item desk-one-half portable-text--center">
+                    <article class="section--proddev-case--yogobe__content">
+                    <h3 class="section--proddev-case__subtitle">Yoga as a Service</h3>
+                    <h2 class="section--proddev-case__title">Yogobe</h2>
+                    <p class="section--proddev-case__text portable-text-wrapper">Mindfulness in the cloud. Yogobe is a platform with professional yoga videos on demand. We built their MVP, created the UX and handled the integrations.</p>
+
+                    <a class="btn flush--left" href="/work/yogobe"><span class="palm-hidden">View </span>case study</a>
+                    <a class="btn" href="http://yogobe.com/" target="_blank">Visit website</a>
+                    </article>
+                </div><!--
+                --><div class="grid__item desk-one-half section--proddev-case--yogobe__illustration-container portable-text--center">
+                    <img src="/img/proddev/case-yogobe.png" class="section--proddev-case__illustration section--proddev-case--yogobe__illustration animate--in-view">
+                </div>
+            </div><!-- .grid -->
+        </div><!-- .container -->
+</section>
+
+
+<section class="section section--proddev-case section--proddev-case--uppsalastudent">
+        <div class="container portable-text--center">
+            <div class="grid grid--vertically-centered">
+                <div class="grid__item desk-one-half">
+
+                    <h3 class="section--proddev-case__subtitle">Student Housing and Events</h3>
+                    <h2 class="section--proddev-case__title">Uppsalastudent.com</h2>
+
+                    <p class="section--proddev-case__text portable-text-wrapper">Uppsala University's student nations have a history from the 17th century. We helped them move into the digital world by moving their student housing queues online.</p>
+
+                    <a class="btn flush--left" href="/work/uppsalastudent"><span class="palm-hidden">View </span>case study</a>
+                    <a class="btn" href="https://uppsalastudent.com/" target="_blank">Visit website</a>
+
+                </div><!--
+                --><div class="grid__item desk-one-half text--right portable-text--center">
+                    <img src="/img/proddev/case-uppsalastudent.png" class="section--proddev-case__illustration section--proddev-case__illustration--from-right section--proddev-case--uppsalastudent__illustration animate--in-view">
+                </div>
+            </div><!-- .grid -->
+        </div><!-- .container -->
+</section>
+
+<section class="section read-more">
+    <div class="container">
+        <h3 class="read-more__title">Still not convinced?</h3>
+        <p class="read-more__content">
+            Read more <a href="/work/">case studies</a> or <br class="lap-hidden">learn more <a href="/about/">about us</a>
+        </p>
+    </div>
+</section>
+
+</div>
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title hidden">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+
+        <nav class="main-footer__links main-footer__links--left">
+            <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link main-footer__link--facebook">
+                <span class="hidden">Facebook</span>
+                <img src="/img/icons/icon_fb.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://github.com/agigen" target="_blank" class="main-footer__link main-footer__link--github">
+                <span class="hidden">Github</span>
+                <img src="/img/icons/icon_github.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://dribbble.com/agigen" target="_blank" class="main-footer__link main-footer__link--dribble">
+                <span class="hidden">Dribbble</span>
+                <img src="/img/icons/icon_dribbble.svg" alt="" width="44" height="22">
+            </a>
+        </nav>
+
+        <nav class="main-footer__links main-footer__links--right">
+            <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact &amp; Map</a>
+        </nav>
+    </div>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular-touch.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js?v=1"></script>
+    </body>
+</html>
+
