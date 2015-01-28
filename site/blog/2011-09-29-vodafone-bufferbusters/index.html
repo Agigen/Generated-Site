@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible2}"
+  scroll-spy
+  ng-keyup="menuKeyup($event)"
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Vodafone Bufferbusters
+    
+    &middot; Agigen
+    
+  </title>
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser--ie';
+    }
+
+    if (/ip(ad|hone|od)/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' device--ios';
+    }
+
+    if (/firefox/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' browser--firefox';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css?v=150128_1541">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="fb:admins" content="562883652,1205209891">
+<meta property="og:site_name" content="Agigen.se">
+<meta name="twitter:site" content="@agigen">
+<meta name="twitter:creator" content="@lendai">
+<meta property="og:url" content="http://agigen.se/blog/2011-09-29-vodafone-bufferbusters/">
+
+
+
+
+
+    
+    <meta itemprop="name" content="Agigen - We make the web a better place">
+    <meta property="og:title" content="Agigen - We make the web a better place">
+    <meta name="twitter:title" content="Agigen - We make the web a better place">
+
+
+
+    
+        
+        <meta itemprop="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta property="og:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="twitter:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+    
+
+
+
+    
+    <meta itemprop="image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta property="og:image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta name="twitter:image" content="http://agigen.se/img/utils/summary_card_twitter.jpg">
+
+
+
+
+
+
+
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//agigen-slack-chat.appspot.com">
+
+  <script type="text/javascript" charset="utf-8">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7546376-1']);
+      _gaq.push(['_trackPageview']);
+  </script>
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--vodafone-bufferbusters
+
+  page--page
+  page--blog
+  page--blog--vodafone-bufferbusters
+
+">
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible, 'main-menu--visible-content': menuVisible2}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Case studies </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar-wrapper">
+    <div class="topbar" ng-class="{'menu-expanded': menuVisible}" ng-style="{ 'padding-right': topbarCompensation }">
+        <div class="container cf">
+            <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+                <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+
+            </a></h1>
+    
+
+
+            <button class="topbar__menu-button" ng-click="toggleMenu()" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+                <div class="topbar__menu-button__inner"></div>
+                <span class="accessibility">Menu</span>
+
+            </button>
+
+
+        </div>
+    </div>
+</div>
+
+
+<header class="main-header blog-post__header
+
+    blog-post__header--category--case-studies
+">
+    <div class="main-header__content">
+        <div class="container text--light">
+            <h1 class="main-header__title--blog text-wrapper">Vodafone Bufferbusters</h1>
+            <p>
+                Posted Thu, Sep 29, 2011 in  Case studies 
+            </p>
+        </div>
+    </div>
+</header>
+<div class="main-content">
+
+
+
+
+<div class="content container">
+    
+
+    <article class="blog-post">
+        <p>Vodafone Bufferbusters is a mobile agumented reality game that took place in Germany. The mission was to capture all the Buffer monsters that floats around and makes the internet slow and laggy.</p>
+
+<p>The buffer monsters are small, sneaky creatures that aren&rsquo;t visible for the naked eye, but they are all around us and makes the internet slow. That&rsquo;s why we need to work together and catch &lsquo;em all using our smartphones in a Ghost Busters vacuumer-likely manner.</p>
+
+<p><img src="/img/blog/posts/2011/09/bufferbusters_feature.png" ></p>
+
+<p>The project was created together with North Kingdom and Monterosa.</p>
+
+<p>Agigen took care of the backend and hosting, and the backend was built using Python and ran on Google App Engine. In total there was about 1,5 million Buffer monsters placed all over Germany.</p>
+
+    </article>
+</div>
+
+<footer class="blog-post__footer">
+    <div class="container container--tight">
+        <div class="grid">
+            <div class="grid__item one-half">
+                
+                    <a class="blog-post__nav blog-post__nav--prev" href="/blog/2011-10-05-fwa-mobile-bufferbusters/">
+                        <div class="epsilon">Newer post</div>
+                        <div class="blog-post__nav__imgwrapper">
+                            
+                                <img src="/img/blog/bufferbusters_fwa_320.jpg" class="post__image">
+                            
+                        </div>
+                        <h5 class="blog-post__nav__meta">
+                            
+                                <span class="blog-post__nav__category--case-studies">Case studies</span>
+                            
+                            Tue, Jan 1, 2008
+                        </h5>
+                        <h4 class="blog-post__nav__title">FWA Mobile - Bufferbusters</h4>
+                    </a>
+                
+            </div><div class="grid__item one-half">
+                
+                    <a class="blog-post__nav blog-post__nav--next" href="/work/gosf/">
+                        <div class="epsilon">Older post</div>
+                        <div class="blog-post__nav__imgwrapper">
+                            
+                                <img src="/img/blog/general_320.jpg" class="post__image">
+                            
+                        </div>
+                        <h5 class="blog-post__nav__meta">
+                            
+                                <span class="blog-post__nav__category--case-studies">Case studies</span>
+                            
+                            Tue, Jan 1, 2008
+                        </h5>
+                        <h4 class="blog-post__nav__title"></h4>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title hidden">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+
+        <nav class="main-footer__links main-footer__links--left">
+            <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link main-footer__link--facebook">
+                <span class="hidden">Facebook</span>
+                <img src="/img/icons/icon_fb.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://github.com/agigen" target="_blank" class="main-footer__link main-footer__link--github">
+                <span class="hidden">Github</span>
+                <img src="/img/icons/icon_github.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://dribbble.com/agigen" target="_blank" class="main-footer__link main-footer__link--dribble">
+                <span class="hidden">Dribbble</span>
+                <img src="/img/icons/icon_dribbble.svg" alt="" width="44" height="22">
+            </a>
+        </nav>
+
+        <nav class="main-footer__links main-footer__links--right">
+            <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact &amp; Map</a>
+        </nav>
+    </div>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular-touch.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js?v=150128_1541"></script>
+    </body>
+</html>
+
