@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible2}"
+  scroll-spy
+  ng-keyup="menuKeyup($event)"
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Big Blog Exchange
+    
+    &middot; Agigen
+    
+  </title>
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser--ie';
+    }
+
+    if (/ip(ad|hone|od)/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' device--ios';
+    }
+
+    if (/firefox/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' browser--firefox';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css?v=150319_1402">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="fb:admins" content="562883652,1205209891">
+<meta property="og:site_name" content="Agigen.se">
+<meta name="twitter:site" content="@agigen">
+<meta name="twitter:creator" content="@lendai">
+<meta property="og:url" content="http://agigen.se/work/big-blog-exchange/">
+
+
+
+
+
+    <meta itemprop="name" content="Agigen Case Study - The Big Blog Exchange">
+    <meta property="og:title" content="Agigen Case Study - The Big Blog Exchange">
+    <meta name="twitter:title" content="Agigen Case Study - The Big Blog Exchange">
+
+
+
+    
+        
+        <meta itemprop="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta property="og:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="twitter:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+    
+
+
+
+    
+    <meta itemprop="image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta property="og:image" content="http://agigen.se/img/utils/opengraph.jpg ">
+    <meta name="twitter:image" content="http://agigen.se/img/utils/summary_card_twitter.jpg">
+
+
+
+
+
+
+
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//agigen-slack-chat.appspot.com">
+
+  <script type="text/javascript" charset="utf-8">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7546376-1']);
+      _gaq.push(['_trackPageview']);
+  </script>
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--big-blog-exchange
+
+  page--page
+  page--work
+  page--work--big-blog-exchange
+
+">
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible, 'main-menu--visible-content': menuVisible2}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Case studies </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar-wrapper">
+    <div class="topbar" ng-class="{'menu-expanded': menuVisible}" ng-style="{ 'padding-right': topbarCompensation }">
+        <div class="container cf">
+            <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+                <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+
+            </a></h1>
+    
+
+
+            <button class="topbar__menu-button" ng-click="toggleMenu()" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+                <div class="topbar__menu-button__inner"></div>
+                <span class="accessibility">Menu</span>
+
+            </button>
+
+
+        </div>
+    </div>
+</div>
+
+<header class="main-header">
+    <div class="main-header__content">
+        <div class="container text--light">
+
+            
+                <h2 class="main-header__pretitle">Hostelling International</h2>
+            
+
+            <h1 class="main-header__title">Big Blog Exchange</h1>
+
+            
+
+        </div>
+    </div>
+    
+</header>
+
+<div class="main-content">
+
+
+<div class="content content--page-work">
+    <div class="container">
+    <img src="/img/work/case/bigblog/asset_headerlaptop.png" class="work__header-image">
+</div>
+
+<section class="work__tldr">
+    <div class="container container--tight">
+        <h3 class="work__tldr__pretitle">What it is</h3>
+        <h2>
+            The Big Blog Exchange is a non-profit initiative giving anyone the chance to explore the world through blogging
+        </h2>
+        <a href="http://www.bigblogexchange.org/" class="btn btn--large" target="_blank">Launch site</a>
+    </div>
+</section>
+
+<section class="work__section work__section--three-points work__section--bigblog--three-points">
+    <div class="container">
+        <div class="grid">
+            <div class="grid__item lap-and-up-one-third">
+                <strong>The site</strong><br>
+                The site is driven mostly by it’s participating bloggers, with the site changing appearance and content depending on submissions.
+            </div><!--
+            --><div class="grid__item lap-and-up-one-third">
+                <strong>The mission</strong><br>
+                Attract bloggers around the globe to participate in what could be described as a foreign-exchange student programme.
+            </div><!--
+            --><div class="grid__item lap-and-up-one-third hard--bottom">
+                <strong>A lot of bloggers</strong><br>
+                633 bloggers from 60 countries and a total of 128 248 votes.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container container--tight work__section">
+    <h2>Background</h2>
+    <p>
+        Hostelling International works to provide safe, affordable accomodations to promote cultural exchange among youths. With this in mind Pond developed the concept of the Big blog exchange; what better way to learn about a new culture than to live it?
+    </p>
+    <p>
+        <a href="http://pondsthlm.com/">Pond</a> wanted bloggers from all over the world to sign up for the challenge, promoting their own blogs and gaining votes to become the top blogs of their continent. The most popular blogs would then be paired up and the writers would swap lives with each other, blogging about it all the while.
+    </p>
+</section>
+
+
+<section class="work__section hard--top">
+    <div class="container text--center">
+        <h2 class="epsilon">Early designs</h2>
+
+        <div class="grid">
+            <div class="grid__item one-third">
+                <img src="/img/work/case/bigblog/asset_design1.jpg">
+            </div><!--
+            --><div class="grid__item one-third">
+                <img src="/img/work/case/bigblog/asset_design2.jpg">
+            </div><!--
+            --><div class="grid__item one-third">
+                <img src="/img/work/case/bigblog/asset_design3.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container container--tight work__section">
+    <h2>What we have done</h2>
+    <p>
+        We were hired to to do both front- and backend on the project; signing up, voting and displaying the selected blog entries during the exchange. E-mail integrations to help spread the word and for the 2014 edition we also helped with design.
+    </p>
+</section>
+
+<section class="section hard--top hard--bottom">
+    <div class="container container--tight text--center">
+        <div carousel="/img/work/case/bigblog/screenshot1.jpg,/img/work/case/bigblog/screenshot2.jpg,/img/work/case/bigblog/screenshot3.jpg"></div>
+    </div>
+</section>
+
+
+
+<section class="container container--tight work__section">
+    <h2>Afterwards</h2>
+    <p>
+        The Big blog exchange was such a hit in 2013 that it was repeated for 2014 with some updated designs but with the same concept. It is at the moment of writing just about to close down voting and determine this years winners.
+    </p>
+</section>
+
+<section class="work__section work__section--bigblog--the-exchange">
+    <div class="container container--tight text--center">
+        <h3 class="epsilon text--light">The Exchange 2014</h3>
+        <img src="/img/work/case/bigblog/asset_peopleflying.jpg">
+    </div>
+</section>
+
+
+
+    <section class="section section--start-contact">
+        <div class="container">
+            <div class="epsilon">Sound awesome?</div>
+            <h3 class="alpha">Get in touch</h3>
+
+            <div class="grid">
+    <div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label epsilon contactways__label--left">E-mail</dt>
+            <dd class="contactways__action gamma contactways__action--left"><a href="mailto:hello@agigen.se">hello@agigen.se</a></dd>
+
+            <dt class="contactways__label epsilon contactways__label--left">Address</dt>
+            <dd class="contactways__action gamma contactways__action--left">
+                <a href="https://maps.google.com/maps?t=m&amp;q=Kaptensgatan+6%2C+Stockholm%2C+Sverige" target="_blank">Kaptensgatan 6</a>
+                <div class="lap-and-up-hidden">
+                    114 57 Stockholm
+                </div>
+            </dd>
+        </dl>
+    </div><div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label epsilon">Call</dt>
+            <dd class="contactways__action gamma"><a href="tel:+468201337">+46 (0)8 20 1337 </a></dd>
+
+            <dt class="contactways__label epsilon palm-hidden">Zippity-zip</dt>
+            <dd class="contactways__action gamma palm-hidden">114 57 Stockholm</dd>
+        </dl>
+    </div>
+</div>
+
+
+        </div>
+    </section>
+
+</div>
+
+
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title hidden">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+
+        <nav class="main-footer__links main-footer__links--left">
+            <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link main-footer__link--facebook">
+                <span class="hidden">Facebook</span>
+                <img src="/img/icons/icon_fb.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://github.com/agigen" target="_blank" class="main-footer__link main-footer__link--github">
+                <span class="hidden">Github</span>
+                <img src="/img/icons/icon_github.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://dribbble.com/agigen" target="_blank" class="main-footer__link main-footer__link--dribble">
+                <span class="hidden">Dribbble</span>
+                <img src="/img/icons/icon_dribbble.svg" alt="" width="44" height="22">
+            </a>
+        </nav>
+
+        <nav class="main-footer__links main-footer__links--right">
+            <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact &amp; Map</a>
+        </nav>
+    </div>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular-touch.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js?v=150319_1402"></script>
+    </body>
+</html>
+
