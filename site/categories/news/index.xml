@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>News on Agigen </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://agigen.se/categories/news/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sat, 21 Feb 2015 15:23:36 &#43;0200</updated>
+    
+    <item>
+      <title>Eurobest Awards!</title>
+      <link>http://agigen.se/blog/2015-02-21-bwc-eurobest-awards/</link>
+      <pubDate>Sat, 21 Feb 2015 15:23:36 &#43;0200</pubDate>
+      
+      <guid>http://agigen.se/blog/2015-02-21-bwc-eurobest-awards/</guid>
+      <description>&lt;p&gt;The amazing Build with Chrome project scored not one, not two, but three awards at Eurobest 2014.&lt;/p&gt;
+
+&lt;div class=&#34;container container--tight&#34;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;GOLD - Interactive - Website&lt;/li&gt;
+        &lt;li&gt;SILVER - Interactive - Interface &amp; Navigation&lt;/li&gt;
+        &lt;li&gt;BRONZE - Interactive - Engagement platform&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2015/02/eurobest-1.jpg&#34;&gt;
+&lt;img src=&#34;/img/blog/posts/2015/02/eurobest-2.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Check out the other winners at &lt;a href=&#34;http://www.eurobest.com/winners/2014/&#34;&gt;http://www.eurobest.com/winners/2014/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>William says Hello</title>
+      <link>http://agigen.se/blog/2014-05-08-william-says-hello/</link>
+      <pubDate>Thu, 08 May 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2014-05-08-william-says-hello/</guid>
+      <description>&lt;p&gt;This is a guest blog post by our 14year old trainee William! Unfortunately available in Swedish only.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The following entry is in swedish only.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2014/05/william_1.jpg&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Den senaste tiden har vi haft förstärkning av William, i normala fall åttondeklassare på Internationella Engelska Skolan.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Jag valde att ha min prao här på grund av att jag har ett stort intresse bland datorer och programmering och det såg roligt ut och det var det.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jag har fått göra en hemsida som var ganska svårt på grund av att det var min första men så tur så fick jag hjälp när jag behövde det och jag har lärt mig mycket av det, innan så visste jag bara &amp;#8216;the basics&amp;#8217; av html och css och nu känns det som jag kan otroligt mycket mer.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;William fick som uppgift av oss att skapa en rolig intern sajt kallad &amp;#8220;Veckans&amp;#8221;.
+Konceptet var att under veckans gång kunna lägga in roliga händelser på kontoret och utanför, för att sedan kunna rösta på dessa händelser för att få fram &amp;#8220;veckans händelse&amp;#8221;, t.ex om någon gjort ett roligt misstag i kod, ramlat och slagit sig (slapstick-humor blir aldrig gammalt) eller om någon kanske sagt en rolig wordpun som fick oss alla att skratta.&lt;/p&gt;
+
+&lt;p&gt;Vår designer Max satt tillsammans med William och skissade fram en enkel wireframe till hur sajten skulle se ut och nästan direkt kunde arbetet med frontend-utveckling påbörjas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&#34;william_3&#34; src=&#34;/img/blog/posts/2014/05/william_3.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Designen i sig var relativt enkel, men även simplistiska layouts kräver mycket CSS &amp;#8211; speciellt eftersom den skulle fungera i både mobil, dator och till och med en TV för våra morgonmöten.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&#34;william_2&#34; src=&#34;/img/blog/posts/2014/05/william_2.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Efter några dagar var grunden klar och det gick att klicka sig runt både i mobil och dator, mission accomplished. Vi kände att det fanns nog med frontend färdigt för att fortsätta med backend-biten själva. Vi tackar William för tiden han kunde ge och önskar honom ett stort lycka till i världen av kod och design!&lt;/p&gt;
+
+&lt;p&gt;Vi ger William sista ordet:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Allt var intressant här. jag fick lära mig mycket och jag gillar allt som jag har gjort. Det var mer än vad jag förväntade mig. Jag trodde jag inte skulle få ha något att göra hela tiden men det fick jag, jag fick göra en hemsida som var otroligt kul.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Happy new year!</title>
+      <link>http://agigen.se/blog/2014-01-02-happy-new-year/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2014-01-02-happy-new-year/</guid>
+      <description>&lt;p&gt;We created a small site as a summary of 2013 at Agigen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2014/01/agigen_a-year-in-review.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2013.agigen.se/&#34;&gt;Agigen 2013 &amp;#8211; a year in review&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Re:office</title>
+      <link>http://agigen.se/blog/2013-10-18-reoffice/</link>
+      <pubDate>Fri, 18 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-10-18-reoffice/</guid>
+      <description>&lt;p&gt;Next step in the new office makeover. In todays episode; paint the kitchen wall and work on the creative room.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/v2-5.jpg&#34; alt=&#34;v2-5&#34; /&gt;
+Prototyping.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/v2-6.jpg&#34; alt=&#34;v2-6&#34; /&gt;
+Implementing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/v2-4.jpg&#34; alt=&#34;v2-4&#34; /&gt;
+Iterating.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/v2-7.jpg&#34; alt=&#34;v2-7&#34; /&gt;
+Product owner.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/v2_1.jpg&#34; alt=&#34;v2_1&#34; /&gt;
+Releasing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/v2-2.jpg&#34; alt=&#34;v2-2&#34; /&gt;
+Working on the branding.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/v2-3.jpg&#34; alt=&#34;v2-3&#34; /&gt;
+We also put up some wallpaper in the creative room.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Swedish Startup Space</title>
+      <link>http://agigen.se/blog/2013-10-12-swedish-startup-space/</link>
+      <pubDate>Sat, 12 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-10-12-swedish-startup-space/</guid>
+      <description>&lt;p&gt;We were featured in the Swedish Startup Space blog, read the full article here.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://swedishstartupspace.com/2013/09/18/agigen-lean-startup-shop/&#34;&gt;http://swedishstartupspace.com/2013/09/18/agigen-lean-startup-shop/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Handy handymen!</title>
+      <link>http://agigen.se/blog/2013-10-10-handy-handymen/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-10-10-handy-handymen/</guid>
+      <description>&lt;p&gt;We&amp;#8217;re currently in the middle of getting everything ready for moving into our new office in the end of the month.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/kontorinprogress5.jpg&#34; alt=&#34;kontorinprogress5&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/kontorinprogress1.jpg&#34; alt=&#34;kontorinprogress1&#34; /&gt;
+Where the magic will happen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/kontorinprogress3.jpg&#34; alt=&#34;kontorinprogress3&#34; /&gt;
+For relaxing times.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/kontorinprogress2.jpg&#34; alt=&#34;kontorinprogress2&#34; /&gt;
+Everything we need.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/10/kontorinprogress4.jpg&#34; alt=&#34;kontorinprogress4&#34; /&gt;
+Compiling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FWA Site of the day</title>
+      <link>http://agigen.se/blog/2013-09-06-fwa-site-of-the-day/</link>
+      <pubDate>Fri, 06 Sep 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-09-06-fwa-site-of-the-day/</guid>
+      <description>&lt;p&gt;We won another FWA Site of the day for Carlsberg&amp;#8217;s Where&amp;rsquo;s the Party!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thefwa.com/site/where-s-the-party-by-carlsberg&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.thefwa.com/site/where-s-the-party-by-carlsberg&#34;&gt;http://www.thefwa.com/site/where-s-the-party-by-carlsberg&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Creds goes out to the following awesome guys:&lt;/p&gt;
+
+&lt;p&gt;North Kingdom &amp;#8211; Concept, design&lt;/p&gt;
+
+&lt;p&gt;Axwell &amp;#8211; Music&lt;/p&gt;
+
+&lt;p&gt;Dinahmoe &amp;#8211; Sound development&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Big Blog Exchange video</title>
+      <link>http://agigen.se/blog/2013-03-01-big-blog-exchange-video/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-03-01-big-blog-exchange-video/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s now released. Watch it here!&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;720&#34; height=&#34;407&#34; src=&#34;//www.youtube.com/embed/T5l1wPdbGz4&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FWA - Build with Chrome</title>
+      <link>http://agigen.se/blog/2012-09-06-fwa-build-with-chrome/</link>
+      <pubDate>Thu, 06 Sep 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2012-09-06-fwa-build-with-chrome/</guid>
+      <description>&lt;p&gt;We&amp;#8217;re on a roll! Yet another FWA Site of the Day award!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thefwa.com/site/build-with-chrome&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.thefwa.com/site/build-with-chrome&#34;&gt;http://www.thefwa.com/site/build-with-chrome&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/09/fwa-build.png&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;But we couldn&amp;#8217;t have done it without the guys at North Kingdom, M&amp;#038;C Saatchi/Mark, Google, LEGO and Dinahmoe.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FWA ONLY - The Liberation</title>
+      <link>http://agigen.se/blog/2012-06-06-fwa-only-the-liberation/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2012-06-06-fwa-only-the-liberation/</guid>
+      <description>&lt;p&gt;Yes! We won both a Site of the Day as well as a Site of the Month award from Favourite Website Awards for ONLY &amp;#8211; The Liberation&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thefwa.com/site/only-the-liberation&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.thefwa.com/site/only-the-liberation&#34;&gt;http://www.thefwa.com/site/only-the-liberation&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/09/fwa-only.png&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Shoutouts to the great guys over at North Kingdom, DinahMoe and UncleGrey!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FWA Mobile - Bufferbusters</title>
+      <link>http://agigen.se/blog/2011-10-05-fwa-mobile-bufferbusters/</link>
+      <pubDate>Wed, 05 Oct 2011 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2011-10-05-fwa-mobile-bufferbusters/</guid>
+      <description>&lt;p&gt;We got awarded a Mobile of the Day award from Favourite Website Awards!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thefwa.com/mobile/vodafone-bufferbusters&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.thefwa.com/mobile/vodafone-bufferbusters&#34;&gt;http://www.thefwa.com/mobile/vodafone-bufferbusters&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/09/fwa-bufferbusters.png&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Concept and design by North Kingdom, sounds by DinahMoe, the app by Monterosa and the backend by Agigen! Such a great team.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
