@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Case-Studies on Agigen </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://agigen.se/categories/case-studies/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Thu, 22 Aug 2013 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Carlsberg Where&#39;s the Party 2013</title>
+      <link>http://agigen.se/blog/2013-08-22-carlsberg-where-is-the-party-2013/</link>
+      <pubDate>Thu, 22 Aug 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-08-22-carlsberg-where-is-the-party-2013/</guid>
+      <description>
+
+&lt;p&gt;Together with our friends and longtime partners at North Kingdom, we created Carlsberg’s Where’s the Party 2013 campaign, featuring Axwell of Swedish House Mafia fame. The site takes users on a tour through an interactive video to find one of 2013′s best parties.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/08/carlsberg-1960x1040.png&#34; &gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;We used&lt;/h1&gt;
+
+&lt;p&gt;Google App Engine&lt;br&gt;
+Python&lt;br&gt;
+HTML5&lt;br&gt;
+CSS&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Project details&lt;/h1&gt;
+
+&lt;p&gt;Client: North Kingdom&lt;br&gt;
+End client: Carlsberg&lt;br&gt;
+Date: May 2013&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Links&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.where-is-the-party.com/&#34;&gt;Project site&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Netflix The Flixies</title>
+      <link>http://agigen.se/blog/2013-08-22-netflix-the-flixies/</link>
+      <pubDate>Thu, 22 Aug 2013 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2013-08-22-netflix-the-flixies/</guid>
+      <description>&lt;p&gt;Netflix own version of the Academy Awards &amp;#8211; but with more realistic categories. Based on how people really uses Netflix.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2013/08/flixies_feature.png&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&#34;65591_10151316261693870_1076038401_n&#34; src=&#34;/img/blog/posts/2013/08/65591_10151316261693870_1076038401_n.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vodafone Bufferbusters</title>
+      <link>http://agigen.se/blog/2011-09-29-vodafone-bufferbusters/</link>
+      <pubDate>Thu, 29 Sep 2011 00:00:00 UTC</pubDate>
+      
+      <guid>http://agigen.se/blog/2011-09-29-vodafone-bufferbusters/</guid>
+      <description>&lt;p&gt;Vodafone Bufferbusters is a mobile agumented reality game that took place in Germany. The mission was to capture all the Buffer monsters that floats around and makes the internet slow and laggy.&lt;/p&gt;
+
+&lt;p&gt;The buffer monsters are small, sneaky creatures that aren&amp;rsquo;t visible for the naked eye, but they are all around us and makes the internet slow. That&amp;rsquo;s why we need to work together and catch &amp;lsquo;em all using our smartphones in a Ghost Busters vacuumer-likely manner.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/blog/posts/2011/09/bufferbusters_feature.png&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;The project was created together with North Kingdom and Monterosa.&lt;/p&gt;
+
+&lt;p&gt;Agigen took care of the backend and hosting, and the backend was built using Python and ran on Google App Engine. In total there was about 1,5 million Buffer monsters placed all over Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
