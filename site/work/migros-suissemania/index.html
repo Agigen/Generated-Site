@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"
+  ng-app="agigenApp"
+  ng-controller="menuCtrl"
+  ng-class="{'menu-open': menuVisible2}"
+  scroll-spy
+  ng-keyup="menuKeyup($event)"
+>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Suisse Mania
+    
+    &middot; Agigen
+    
+  </title>
+
+  <script>
+    if ("ActiveXObject" in window) {
+      document.getElementsByTagName('html')[0].className += ' browser--ie';
+    }
+
+    if (/ip(ad|hone|od)/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' device--ios';
+    }
+
+    if (/firefox/gi.test(navigator.userAgent)) {
+      document.getElementsByTagName('html')[0].className += ' browser--firefox';
+    }
+  </script>
+
+  
+  
+  <link rel="stylesheet" href="/css/agigen.css?v=160204_1515">
+
+  
+
+  <link rel="shortcut icon" href="/img/utils/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/utils/apple-touch-icon.png">
+
+  <link rel="icon" type="image/png" href="/img/utils/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/img/utils/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/img/utils/mstile-144x144.png">
+
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="fb:admins" content="562883652,1205209891">
+<meta property="og:site_name" content="Agigen.se">
+<meta name="twitter:site" content="@agigen">
+<meta name="twitter:creator" content="@lendai">
+<meta property="og:url" content="http://agigen.se/work/migros-suissemania/">
+
+
+
+
+
+    <meta itemprop="name" content="Agigen Case Study - Suisse Mania for Migros">
+    <meta property="og:title" content="Agigen Case Study - Suisse Mania for Migros">
+    <meta name="twitter:title" content="Agigen Case Study - Suisse Mania for Migros">
+
+
+
+    
+        
+        <meta itemprop="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta property="og:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+        <meta name="twitter:description" content="Creative web agency based in Stockholm, Sweden. We create beautiful design, powerful code and cool ideas.">
+    
+
+
+
+    <meta itemprop="image" content="http://agigen.se/img/work/case/suisse/caseshare_1200x630.jpg">
+    <meta property="og:image" content="http://agigen.se/img/work/case/suisse/caseshare_1200x630.jpg">
+    <meta name="twitter:image" content="http://agigen.se/img/work/case/suisse/caseshare_1200x630.jpg">
+
+
+
+
+
+
+
+
+
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//agigen-slack-chat.appspot.com">
+
+  <script type="text/javascript" charset="utf-8">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7546376-1']);
+      _gaq.push(['_trackPageview']);
+  </script>
+
+  <script type="text/javascript" src="//use.typekit.net/orr5jqv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body
+class="
+page--suisse-mania
+
+  page--page
+  page--work
+  page--work--suisse-mania
+
+">
+<script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- 
+
+                      `://.
+                    `+AAAAAo.
+                  `+AAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+          `+AAAAAAAAAs/sAAAAAAAAAAAAAo.
+        `+AAAAAAAAAA+`  -oAAAAAAAAAAAAAo.
+      `+AAAAAAAAAAA+      .+AAAAAAAAAAAAAo.
+    `+AAAAAAAAAAAA/         .+AAAAAAAAAAAAAo.
+  `+AAAAAAAAAAAAA/            .+AAAAAAAAAAAAAo.
+ +AAAAAAAAAAAAAA/               -sAAAAAAAAAAAAAo`
+.AAAAAAAAAAAAAA+                 `+AAAAAAAAAAAAA/
+ /AAAAAAAAAAAAs`       `-/+agigen:`:AAAAAAAAAAAo`
+  `/AAAAAAAAAA.    .:+AAAAAAAAAAAAA+/AAAAAAAAo.
+    `/AAAAAAAo.-/oAAAAAAAAAAAAAAAAAAAAAAAAAo.
+      `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+        `/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAo.
+          `/AAAAAAAAAAAAAAAAAAAAAAAAAo.
+            `+AAAAAAAAAAAAAAAAAAAAAo.
+              `+AAAAAAAAAAAAAAAAAo.
+                `+AAAAAAAAAAAAAo.
+                  `+AAAAAAAAAo.
+                    `+AAAAAo.
+                      `-::`
+-->
+
+
+
+<nav class="main-menu" ng-class="{'main-menu--expanded': menuVisible, 'main-menu--visible-content': menuVisible2}" ng-click="hideMenu($event)">
+    <section class="main-menu__grid">
+        <ul class="nav nav--stacked">
+            
+            
+                
+                <li>
+                    <a class="main-menu__link main-menu__link--main" href="/">Home</a>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Services</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/services/web-production" class="main-menu__link main-menu__link--sublink main-menu__link--webprod"> Web Production </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/product-development" class="main-menu__link main-menu__link--sublink main-menu__link--proddev"> Product development </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/services/labs" class="main-menu__link main-menu__link--sublink main-menu__link--labs"> Agigen Labs </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Learn more</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/work/" class="main-menu__link main-menu__link--sublink main-menu__link--cases"> Case studies </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/about/" class="main-menu__link main-menu__link--sublink main-menu__link--aboutus"> About us </a>
+                        </li>
+                    
+                        <li>
+                        <a href="/blog/" class="main-menu__link main-menu__link--sublink main-menu__link--blog"> Our diary </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+                
+                <li class="sub-menu">
+                    <span class="main-menu__section-name">Get in touch</span>
+                    <ul class="sub">
+                    
+                        <li>
+                        <a href="/contact/" class="main-menu__link main-menu__link--sublink main-menu__link--contactus"> Contact us </a>
+                        </li>
+                    
+                    </ul>
+                
+                </li>
+            
+        </ul>
+    </section>
+</nav>
+
+<div class="topbar-wrapper">
+    <div class="topbar" ng-class="{'menu-expanded': menuVisible}" ng-style="{ 'padding-right': topbarCompensation }">
+        <div class="container cf">
+            <h1 class="topbar__title"><a href="/" title="Agigen.se">
+
+                <svg class="color-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path  fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+
+            </a></h1>
+    
+
+
+            <button class="topbar__menu-button" ng-click="toggleMenu()" ng-class="{'topbar__menu-button--active': menuVisible}">
+
+                <div class="topbar__menu-button__inner"></div>
+                <span class="accessibility">Menu</span>
+
+            </button>
+
+
+        </div>
+    </div>
+</div>
+
+<header class="main-header">
+    <div class="main-header__content">
+        <div class="container text--light">
+
+            
+                <h2 class="main-header__pretitle">Explore Switzerland in a fun and interactive way</h2>
+            
+
+            <h1 class="main-header__title">Suisse Mania</h1>
+
+            
+
+        </div>
+    </div>
+    
+</header>
+
+<div class="main-content">
+
+
+<div class="content content--page-work">
+    <div class="container">
+    <img src="/img/work/case/suisse/suissem_headercomp_new.png" class="work__header-image">
+</div>
+
+<section class="work__tldr">
+    <div class="container container--tight">
+        <h3 class="work__tldr__pretitle">What it is</h3>
+        <h2>
+            Suisse Mania is an interactive WebGL experience where collecting famous buildings, attractions and areas in Switzerland is the name of the game!
+        </h2>
+        <a href="http://www.suissemania.ch" class="btn btn--large btn--suisse">Play the game</a>
+    </div>
+</section>
+
+<section class="container work__section">
+    <div class="grid grid--suisse grid--vertically-centered">
+        <div class="grid__item lap-and-up-one-half">
+
+            <figure class="video-with-image">
+                <video autoplay loop muted class="video-with-image__video" poster="/img/work/case/suisse/suissem_jumpinto.jpg">
+                    <source src="/video/case/suisse/suissem_loop.mp4" type="video/mp4">
+                    <source src="/video/case/suisse/suissem_loop.webm" type="video/webm">
+                </video>
+                <div class="video-with-image__image">
+                    <img src="/img/work/case/suisse/suissem_balloon.png" class=" suisse-balloon">
+                </div>
+            </figure>
+
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <div class="sm-padding--left">
+                <h2 class="suisse-small-headline suisse-small-headline--red">Jump into Switzerland</h2>
+                <p>
+                    The beautiful landscape, rich culture and amazing history of Switzerland is just a loading screen away - come along into the Suisse Mania balloon and enjoy the ride!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="container work__section">
+    <div class="grid grid--suisse grid--vertically-centered">
+        <div class="grid__item lap-and-up-one-third">
+
+            <img src="/img/work/case/suisse/suissem_background.jpg" class="suisse-content-image section-background-image">
+
+        </div><!--
+     --><div class="grid__item lap-and-up-two-thirds">
+            <div class="">
+                <h2 class="suisse-headline-darkbold">Background</h2>
+                <p>
+                    Migros, one of Switzerland's larger retailers is the company behind Suisse Mania.
+                </p>
+                <p>
+                    Suisse Mania revolves around collecting places of importance to Switzerland, for example the mountain Matterhorn, the CERN research facility and castles dating back to the 13th century.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container work__section">
+    <div class="grid grid--suisse grid--rev grid--vertically-centered">
+        <div class="grid__item lap-and-up-one-half">
+
+            <figure class="video-with-image section-pois-video-image">
+                <video autoplay loop muted class="video-with-image__video"  poster="/img/work/case/suisse/suissem_catchemall.jpg">
+                    <source src="/video/case/suisse/suissem_collect.mp4" type="video/mp4">
+                    <source src="/video/case/suisse/suissem_collect.webm" type="video/webm">
+                </video>
+                <img src="/img/work/case/suisse/suissem_rathaus.png" class="video-with-image__image video-with-image__image--left">
+            </figure>
+
+
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <div class="sm-padding--right">
+
+                <h2 class="suisse-small-headline">Gotta catch 'em all</h2>
+                <p>
+                    The offline collecting of items works like a Happy Meal at McDonalds. Shop for at least twenty swiss francs (CHF) in a Migros store and you’ll get a plastic model with the purchase. The more you buy - the more items you get.
+                </p>
+                <p>
+                    Online it’s up to you to find all of the 50 objects hidden around Switzerland by playing around, exploring and learning in a custom made 3D world. Once you’ve caught them all you’ve got the chance to win some exciting prizes.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="section hard--top hard--bottom">
+    <div class="container container--tight text--center">
+        <div carousel="/img/work/case/suisse/suissem_slide1.jpg,/img/work/case/suisse/suissem_slide2.jpg,/img/work/case/suisse/suissem_slide3.jpg"></div>
+    </div>
+</section>
+
+
+<section class="container work__section">
+    <div class="grid grid--suisse grid--vertically-centered">
+        <div class="grid__item lap-and-up-one-half">
+
+            <img src="/img/work/case/suisse/suissem_mania.jpg" class="round-image suisse-content-image">
+
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <div class="sm-padding--left">
+                <h2 class="section-maina-everywhere-headline">Mania Everywhere</h2>
+                <p>
+                    The Mania campaign is massive in Switzerland. It involves road shows, models & stickers available in all 600+ Migros stores, hot air balloon rides, a custom board game, and this groundbreaking digital experience.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container container--tight text--center work__section">
+    <img src="/img/work/case/suisse/suissm_objects.png" width="100%" class="suisse-objects-image">
+
+    <h2 class="suisse-headline-darkbold">Over 100 accurate models</h2>
+    <div class="suisse-thin-gamma">
+        Suisse Mania includes 54 main objects and countless environmental objects such as trees, streetlights, roads and animals scattered throughout Switzerland.
+    </div>
+</section>
+
+
+<section class="container work__section suisse-goo">
+    <iframe class="suisse-goo-iframe" src="/goo/suisse/index.html" title="Suisse Mania Model Preview"></iframe>
+</section>
+
+<section class="work__section container">
+    <div class="grid grid--suisse grid--rev grid--vertically-centered">
+        <div class="grid__item lap-and-up-one-half">
+
+            <img src="/img/work/case/suisse/suissem_voices.jpg" class="suisse-content-image round-image">
+
+
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <h2 class="suisse-small-headline">Everything has a story</h2>
+            <p>
+                Every place has their own special story. In Suisse Mania we used professional voice actors to record the stories in four languages. Go ahead and listen to one of the clips below.
+            </p>
+
+            <div>
+                <a href="/audio/case/suisse/schloss-gruyere-en.mp3" class="sound-button" target="_blank">
+                    <img src="/img/work/case/suisse/flags/suissem_english.png" class="sound-button__flag"> English
+                </a>
+                <a href="/audio/case/suisse/schloss-gruyere-de.mp3" class="sound-button" target="_blank">
+                    <img src="/img/work/case/suisse/flags/suissem_german.png" class="sound-button__flag"> German
+                </a>
+                <a href="/audio/case/suisse/schloss-gruyere-fr.mp3" class="sound-button" target="_blank">
+                    <img src="/img/work/case/suisse/flags/suissem_french.png" class="sound-button__flag"> French
+                </a>
+                <a href="/audio/case/suisse/schloss-gruyere-it.mp3" class="sound-button" target="_blank">
+                    <img src="/img/work/case/suisse/flags/suissem_italian.png" class="sound-button__flag"> Italian
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="work__section text--center container container--tight">
+    <h2 class="suisse-headline-darkbold">Support for any device</h2>
+    <div class="suisse-thin-gamma">
+        To gain maximum exposure we created three versions of the experience. Two 3D versions with varying level of detail and effects, as well as a fallback 2D experience for older browsers supporting everything down to IE9.
+    </div>
+</section>
+<section class="work__section container">
+    <div class="grid grid--suisse text--center">
+        <div class="grid__item lap-and-up-one-third">
+
+            <div class="suisse-version">
+                <img src="/img/work/case/suisse/suissem_hd.jpg" class="suisse-version__image">
+
+                <h3 class="suisse-version__title">High Definition, 3D</h3>
+                <p class="suisse-version__desc">
+                Full hardware acceleration.<br>
+                High resolution textures.<br>
+                Multiple-layer shaders.
+                </p>
+            </div>
+
+        </div><!--
+        --><div class="grid__item lap-and-up-one-third">
+
+            <div class="suisse-version">
+                <img src="/img/work/case/suisse/suissem_sd.jpg" class="suisse-version__image">
+
+                <h3 class="suisse-version__title">Standard Definition, 3D</h3>
+                <p class="suisse-version__desc">
+                    Full hardware acceleration.<br>
+                    Half resolution textures.<br>
+                    Low polygon count.
+                </p>
+            </div>
+
+        </div><!--
+        --><div class="grid__item lap-and-up-one-third hard--bottom">
+            <div class="suisse-version">
+                <img src="/img/work/case/suisse/suissem_lofi.jpg" class="suisse-version__image">
+
+                <h3 class="suisse-version__title">Fallback, 2D</h3>
+                <p class="suisse-version__desc">
+                    Huge (tiled) flat map image.<br>
+                    Equal functionality.<br>
+                    Pan & zoom controls.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="work__section container container--tight text--center">
+    <h2 class="suisse-headline-darkbold">
+        Keeping it simple
+    </h2>
+    <div class="suisse-thin-gamma">
+        It’s a game for kids, and by using icons and large buttons we made it accessible and easy to use on both computers and mobile devices.
+    </div>
+</section>
+
+
+<section class="work__section container">
+    <img src="/img/work/case/suisse/suissem_forkids.png" class="suisse-for-kids-image">
+</section>
+
+
+<section class="work__section section-production-blue">
+    <div class="container">
+        <h2 class="section-production-blue__headline">The Production</h2>
+        <div class="suisse-thin-gamma section-production-blue__desc lap-and-up-two-thirds">
+            We worked on Suisse Mania together with Hinderling Volkart and Goo Technologies for three months.
+        </div>
+    </div>
+</section>
+
+<section class="work__section container">
+
+    <div class="grid grid--suisse grid--rev">
+        <div class="grid__item lap-and-up-one-half text--right">
+            <img src="/img/work/case/suisse/suissem_photo1.jpg" class="suisse-content-image">
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <h2 class="suisse-small-headline">The world takes form...</h2>
+
+            <p>
+                First, we wanted the actual terrain of Switzerland as a base for us to model our world on. From an open source (measuring mountains is important stuff in Switzerland - there were a lot of open sources) we imported a real heightmap and topography and used that data to create a mesh in WebGL.
+            </p>
+            <p>
+                The designers then spent countless of hours researching the different aspects of the Swiss landscape; in a country covered by the Alps, large forests, wine districts and both old and new cities it was crucial to capture the unique feeling of each and every one of them.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="work__section container">
+    <div class="suisse-world-images">
+        <div class="grid grid--suisse grid--vertically-centered">
+            <div class="grid__item lap-and-up-one-half text--center">
+                <img src="/img/work/case/suisse/suissem_earlyworld1.png" class="suisse-content-image">
+            </div><!--
+         --><div class="grid__item lap-and-up-one-half text--center">
+                <img src="/img/work/case/suisse/suissem_earlyworld2.png" class="suisse-content-image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="work__section container">
+    <div class="grid grid--suisse">
+        <div class="grid__item lap-and-up-one-half">
+            <img src="/img/work/case/suisse/suissem_photo2.jpg" class="suisse-content-image">
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <div>
+                <h2 class="suisse-small-headline">...and evolves</h2>
+                <p>
+                    Slowly the mesh was embroidered with a complex landscape; first out were roads, trees, glaciers and eventually rivers and lakes. The 3D masterminds over at Goo then continued to populate the world with objects; cities, bridges, vehicles and even animated animals roaming the fields of northern Switzerland. Eventually we had a picturesque, model train-style miniature Switzerland we could really be proud of.
+                </p>
+                <p>
+                    During the final weeks we did touch ups and added effects and the map looked better than ever. The seamless experience in the 3D world and all its powerful capabilities caught everyone by surprise. It was by this time that we realized that together we had not only managed to create a solid looking campaign website, but also an amazing showcase for what WebGL holds for the future.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="work__section container text--center">
+    <img src="/img/work/case/suisse/suissem_animals.png" alt="Amazing low poly animals" class="suisse-animals">
+</section>
+
+<section class="work__section container">
+    <div class="grid grid--suisse grid--rev">
+        <div class="grid__item lap-and-up-one-half text--right">
+            <img src="/img/work/case/suisse/suissem_goocreate.png" class="suisse-content-image">
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+
+            <h2 class="suisse-small-headline suisse-small-headline--red">Goo Create & WebGL</h2>
+            <p>
+                This was our first larger project using the Goo Create engine to power the experience. We’ve previously been working mostly with Three.js, but with Goo we got a whole new workflow with easier prototyping and deployments. The guys at Goo really showed us the power of their tool with paint-it-on-terrain tools and fast optimization for mobile devices. We had a blast working together with these talented people and look forward to a lot more collaboration in the future.
+            </p>
+
+        </div>
+    </div>
+
+</section>
+<section class="work__section container">
+
+    <div class="grid grid--suisse">
+        <div class="grid__item lap-and-up-one-half">
+            <img src="/img/work/case/suisse/suissem_code.jpg" class="suisse-content-image">
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+
+            <h2 class="suisse-small-headline suisse-small-headline--red">Connecting with the real world</h2>
+            <p>
+                Not only was there a lot of work creating the 3D-miniature of Switzerland but the all around site itself was also something to really sink our teeth in. First of all, the contest itself required a lot of functionality. The real life collector’s items have codes printed on them that the user can enter on the site to “find” the virtual one and add it to their collection. Each user also has their own Collection page where they can view what items they’ve found and which they still have to look for. There’s also the usual info pages about the contest and more importantly the prizes.
+            </p>
+
+        </div>
+    </div>
+
+</section>
+<section class="work__section container">
+
+
+    <div class="grid grid--suisse grid--rev">
+        <div class="grid__item lap-and-up-one-half text--right">
+            <img src="/img/work/case/suisse/suissem_jokers.jpg" class="suisse-content-image">
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <p>
+                On top of the regular campaign to find the 50 standard objects, there are also four joker objects at play. During a week at a time a special item is featured as the joker and collecting this item can only be done during that week. It had to be carefully timed to correspond to the communications out in the offline world.
+            </p>
+            <p>
+                Collecting all jokers is necessary to get the achievement Superstar (and who doesn’t want that?!).
+            </p>
+            <p>
+                All of these pages - Collection, contest info, News, etc - had to be available in all three of Switzerland’s most spoken languages and just because we speak neither German, French or Italian we also made an English version.
+            </p>
+
+        </div>
+    </div>
+
+</section>
+<section class="work__section container">
+
+    <div class="grid grid--suisse">
+        <div class="grid__item lap-and-up-one-half">
+            <img src="/img/work/case/suisse/suissem_appengine.jpg" class="suisse-content-image">
+        </div><!--
+     --><div class="grid__item lap-and-up-one-half">
+            <h2 class="suisse-small-headline">Accommodating for an onslaught of visitors</h2>
+            <p>
+                As per usual we turned to our trusty Google App Engine for the scalability it provides. It stood by us once again and when Migros sent out over a million newsletters to their subscribers the site performed flawlessly despite a couple of thousand simultaneous users.
+            </p>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section class="work__section hard--bottom">
+    <header class="container container--tight text--center">
+
+        <h2 class="suisse-headline-darkbold">The Team</h2>
+        <div class="suisse-thin-gamma">
+            Suisse Mania was brought to you by these three great companies. Hit us up with your next project!
+        </div>
+    </header>
+</section>
+<section class="work__section">
+    <div class="container">
+        <div class="grid grid--suisse">
+            <div class="grid__item lap-and-up-one-third">
+                <div class="suisse-team">
+                    <a href="http://www.hinderlingvolkart.com" class="suisse-team__badge-link" target="_blank">
+                        <img src="/img/work/case/suisse/suissem_hv.png" class="suisse-team__badge">
+                    </a>
+                    <h3 class="suisse-team__headline">
+                        Hinderling Volkart
+                    </h3>
+                    <p class="suisse-team__desc">
+                        Lead Agency, Client Contact, Concept, Design, Art Direction, 3D Support
+                    </p>
+                </div>
+            </div><!--
+            --><div class="grid__item lap-and-up-one-third">
+                <div class="suisse-team">
+                    <a href="http://agigen.se" class="suisse-team__badge-link">
+                        <img src="/img/work/case/suisse/suissem_agigen.png" class="suisse-team__badge">
+                    </a>
+                    <h3 class="suisse-team__headline">
+                        Agigen
+                    </h3>
+                    <p class="suisse-team__desc">
+                        Project Management, Design Support, Web & Backend Development
+                    </p>
+                </div>
+            </div><!--
+            --><div class="grid__item lap-and-up-one-third hard--bottom">
+                <div class="suisse-team">
+                    <a href="http://goocreate.com" class="suisse-team__badge-link" target="_blank">
+                        <img src="/img/work/case/suisse/suissem_goo.png" class="suisse-team__badge">
+                    </a>
+                    <h3 class="suisse-team__headline">
+                        Goo Technologies
+                    </h3>
+                    <p class="suisse-team__desc">
+                        3D and WebGL Development
+                    </p>
+
+                </div>
+            </div>
+        </div><!-- .grid -->
+
+    </div>
+</section>
+
+
+    <section class="section section--start-contact">
+        <div class="container">
+            <div class="epsilon">Sound awesome?</div>
+            <h3 class="alpha">Get in touch</h3>
+
+            <div class="grid">
+    <div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label epsilon contactways__label--left">E-mail</dt>
+            <dd class="contactways__action gamma contactways__action--left"><a href="mailto:hello@agigen.se">hello@agigen.se</a></dd>
+
+            <dt class="contactways__label epsilon contactways__label--left">Address</dt>
+            <dd class="contactways__action gamma contactways__action--left">
+                <a href="https://maps.google.com/maps?t=m&amp;q=Kaptensgatan+6%2C+Stockholm%2C+Sverige" target="_blank">Kaptensgatan 6</a>
+                <div class="lap-and-up-hidden">
+                    114 57 Stockholm
+                </div>
+            </dd>
+        </dl>
+    </div><div class="grid__item lap-and-up-one-half">
+        <dl class="contactways">
+            <dt class="contactways__label epsilon">Call</dt>
+            <dd class="contactways__action gamma"><a href="tel:+468201337">+46 (0)8 20 1337 </a></dd>
+
+            <dt class="contactways__label epsilon palm-hidden">Zippity-zip</dt>
+            <dd class="contactways__action gamma palm-hidden">114 57 Stockholm</dd>
+        </dl>
+    </div>
+</div>
+
+
+        </div>
+    </section>
+
+</div>
+
+
+
+</div>
+<footer class="main-footer">
+    <div class="container">
+        <h1 class="main-footer__title hidden">
+            <a href="/" title="Agigen">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 244.8 190.6" enable-background="new 0 0 244.8 190.6" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M92.1,3.8C105.7,15.2,219.5,105.1,240,185.9c-69.6-117.8-200.3,13.7-233.3,0
+                        C-9.8,181.3,80.7-1.3,92.1,3.8z"></path>
+                </svg>
+            </a>
+        </h1>
+
+        <nav class="main-footer__links main-footer__links--left">
+            <a href="https://www.facebook.com/agigen" target="_blank" class="main-footer__link main-footer__link--facebook">
+                <span class="hidden">Facebook</span>
+                <img src="/img/icons/icon_fb.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://github.com/agigen" target="_blank" class="main-footer__link main-footer__link--github">
+                <span class="hidden">Github</span>
+                <img src="/img/icons/icon_github.svg" alt="" width="44" height="22">
+            </a>
+            <a href="https://dribbble.com/agigen" target="_blank" class="main-footer__link main-footer__link--dribble">
+                <span class="hidden">Dribbble</span>
+                <img src="/img/icons/icon_dribbble.svg" alt="" width="44" height="22">
+            </a>
+        </nav>
+
+        <nav class="main-footer__links main-footer__links--right">
+            <a href="/contact" class="main-footer__link main-footer__link--bordered">Contact &amp; Map</a>
+        </nav>
+    </div>
+</footer>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular-touch.js"></script>
+    <script src="//agigen-slack-chat.appspot.com/_ah/channel/jsapi"></script>
+    <script src="//agigen-slack-chat.appspot.com/static/chat.js"></script>
+    <script src="//www.youtube.com/iframe_api"></script>
+    <script src="/js/agigen.jquery-in-view.js"></script>
+    <script src="/js/agigen.js?v=160204_1515"></script>
+    <script type="text/javascript">
+       var _paq = _paq || [];
+       (function(){ var u=(("https:" == document.location.protocol) ? "https://tracker.leadenhancer.com/" : "http://tracker.leadenhancer.com/");
+           _paq.push(['setAccountId', '56b1fd56e4b020ad9efd28fd']);
+           _paq.push(['setSiteId', '56b1fd56e4b020ad9efd2900']);
+           _paq.push(['setTrackerUrl', u + 'trk/v1']);
+           _paq.push(['trackPageView']);
+           _paq.push(['enableLinkTracking']);
+           var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.defer=true; g.async=true; g.src=u+'static/t/v3/j.min.js';
+           s.parentNode.insertBefore(g,s); })();
+    </script>
+    </body>
+</html>
+
